@@ -1,0 +1,4412 @@
+/* for computer */
+@media(max-width:1920px){
+    .header
+{
+    width: 100%;
+    height: 80px;
+}
+.container
+{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.container ul
+{ 
+    display: flex;
+}
+.container ul li
+{
+    list-style: none;
+    padding: 0px 20px;
+}
+.container ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.home::after
+{
+    content: '';
+    border-bottom: 3px solid orangered;
+    width:3%;
+    display: block;
+    margin-top: 25px;
+    position: absolute;
+}
+
+.container ul li a :hover
+{
+    content: '';
+    border-bottom: 1px solid orangered;
+    width: 100%;
+    color: orangered;
+    display: block;
+    transition: 0.5s;
+}
+
+/* bg-main*/
+
+.bg-main
+{
+    width: 100%;
+    height: 90vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('images/bgimage.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg-content
+{
+    width: 60%;
+    height: 400px;
+    padding: 15px;
+    position: relative;
+    top: 25%;
+    left: 12%;
+}
+.donate
+{
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.world
+{
+    font-size: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg-content p
+{
+    font-size: 20px;
+    margin-top: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buttons
+{
+    display: flex;
+    height: 100px;
+    position: relative;
+    top: 80px;
+}
+.btndonate
+{
+   
+    background-color: orangered;
+    border-radius: 30px;
+    height: 55px;
+}
+.btndonate a
+{
+    padding: 0px 40px;
+    color: white;
+    text-decoration: none;
+    line-height: 55px;
+}
+.readbtn
+{
+    border-radius: 30px;
+    height: 55px;
+    margin-left: 10px;
+    border: 1px solid orangered;
+}
+.readbtn a
+{
+    padding: 0px 40px;
+    color: white;
+    text-decoration: none;
+    line-height: 55px;
+}
+.readbtn a:hover
+{
+    background-color: orangered;
+}
+
+/* box */
+.box
+{
+    width: 100%;
+    height: 500px;
+}
+.box-container
+{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.box1
+{
+    width: 30%;
+    height: 300px;
+    background-color: orangered;
+    border-radius: 20px;
+    margin-top: 90px;
+    padding: 20px 30px;
+}
+.box1 img
+{
+    margin-left: 180px;
+    color: white;
+    margin-top: 30px;
+}
+.box1 h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 30px 0px;
+}
+.box1 p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.box2
+{
+    width: 30%;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-top: 90px;
+    padding: 20px 30px;
+}
+.box2 i
+{
+    margin-left: 180px;
+    font-size: 70px;
+    position: relative;
+    top: 20px;
+    
+}
+.box2 h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px 0px;
+    margin-top: 20px;
+}
+.box2 p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.box2:hover
+{
+    color: white;
+    background-color: orangered;
+}
+.box3
+{
+    width: 30%;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-top: 90px;
+    padding: 20px 30px;
+}
+.box3 img
+{
+    margin-left: 180px;
+    margin-top: 30px;
+}
+.box3 h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px 0px;
+}
+.box3 p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.box3:hover
+{
+    color: white;
+    background-color: orangered;
+}
+
+/*data-image*/
+
+.data-image
+{
+    width: 100%;
+    height: 500px;
+}
+.data-image-container
+{
+    width: 100%;
+    height: 500px;
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url('images/bgimage.webp');
+    display: flex;
+}
+.data
+{
+    width: 38%;
+    height: 370px;
+    margin-top: 65px;
+    padding: 10px 20px;
+    margin-left: 150px;
+}
+.data h1::after
+{
+    content: '';
+    display: block;
+    width: 12%;
+    border-bottom: 5px solid orangered;
+    position: relative;
+    top: 5px;
+}
+.data h1
+{
+    color: white;
+    font-size: 40px;
+}
+.data p
+{
+    font-size: 17px;
+    text-align: justify;
+    padding: 40px 10px;
+    color: white;
+}
+.data a
+{
+    border: 1px solid orangered;
+    color: white;
+    padding: 12px 30px ;
+    text-decoration: none;
+    background-color: orangered;
+    border-radius: 30px;
+    position: relative;
+    top: 20px;
+}
+.image
+{
+    width: 39%;
+    height: 340px;
+    background-color: aqua;
+    margin-top: 90px;
+}
+.image img
+{
+    width: 100%;
+    height: 100%;
+}
+}
+
+
+
+
+/* for laptop */
+@media (max-width:1536px){
+    .header
+{
+    width: 100%;
+    height: 80px;
+}
+.container
+{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.container ul
+{ 
+    display: flex;
+}
+.container ul li
+{
+    list-style: none;
+    padding: 0px 20px;
+}
+.container ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.home::after
+{
+    content: '';
+    border-bottom: 3px solid orangered;
+    width:3%;
+    display: block;
+    margin-top: 25px;
+    position: absolute;
+}
+
+.container ul li a :hover
+{
+    content: '';
+    border-bottom: 1px solid orangered;
+    width: 100%;
+    color: orangered;
+    display: block;
+    transition: 0.5s;
+}
+
+/* bg-main*/
+
+.bg-main
+{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('images/bgimage.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg-content
+{
+    width: 60%;
+    height: 400px;
+    padding: 15px;
+    position: relative;
+    top: 20%;
+    left: 10%;
+}
+.donate
+{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.world
+{
+    font-size: 45px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg-content p
+{
+    font-size: 16px;
+    margin-top: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buttons
+{
+    display: flex;
+    height: 100px;
+    position: relative;
+    top: 80px;
+}
+.btndonate
+{
+   
+    background-color: orangered;
+    border-radius: 30px;
+    height: 55px;
+}
+.btndonate a
+{
+    padding: 0px 40px;
+    color: white;
+    text-decoration: none;
+    line-height: 55px;
+}
+.readbtn
+{
+    border-radius: 30px;
+    height: 55px;
+    margin-left: 10px;
+    border: 1px solid orangered;
+}
+.readbtn a
+{
+    padding: 0px 40px;
+    color: white;
+    text-decoration: none;
+    line-height: 55px;
+}
+.readbtn a:hover
+{
+    background-color: orangered;
+}
+
+/* box */
+.box
+{
+    width: 100%;
+    height: 500px;
+}
+.box-container
+{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.box1
+{
+    width: 30%;
+    height: 300px;
+    background-color: orangered;
+    border-radius: 20px;
+    margin-top: 90px;
+    padding: 20px 30px;
+}
+.box1 img
+{
+    margin-left: 120px;
+    color: white;
+    margin-top: 30px;
+}
+.box1 h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 30px 0px;
+}
+.box1 p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.box2
+{
+    width: 30%;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-top: 90px;
+    padding: 20px 30px;
+}
+.box2 i
+{
+    margin-left: 120px;
+    font-size: 70px;
+    position: relative;
+    top: 20px;
+    
+}
+.box2 h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px 0px;
+    margin-top: 20px;
+}
+.box2 p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.box2:hover
+{
+    color: white;
+    background-color: orangered;
+}
+.box3
+{
+    width: 30%;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-top: 90px;
+    padding: 20px 30px;
+}
+.box3 img
+{
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.box3 h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px 0px;
+}
+.box3 p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.box3:hover
+{
+    color: white;
+    background-color: orangered;
+}
+
+/*data-image*/
+
+.data-image
+{
+    width: 100%;
+    height: 500px;
+}
+.data-image-container
+{
+    width: 100%;
+    height: 500px;
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url('images/bgimage.webp');
+    display: flex;
+}
+.data
+{
+    width: 38%;
+    height: 370px;
+    margin-top: 65px;
+    padding: 10px 20px;
+    margin-left: 150px;
+}
+.data h1::after
+{
+    content: '';
+    display: block;
+    width: 12%;
+    border-bottom: 5px solid orangered;
+    position: relative;
+    top: 5px;
+}
+.data h1
+{
+    color: white;
+    font-size: 40px;
+}
+.data p
+{
+    font-size: 17px;
+    text-align: justify;
+    padding: 40px 10px;
+    color: white;
+}
+.data a
+{
+    border: 1px solid orangered;
+    color: white;
+    padding: 12px 30px ;
+    text-decoration: none;
+    background-color: orangered;
+    border-radius: 30px;
+    position: relative;
+    top: 20px;
+}
+.image
+{
+    width: 39%;
+    height: 340px;
+    background-color: aqua;
+    margin-top: 90px;
+}
+.image img
+{
+    width: 100%;
+    height: 100%;
+}
+}
+
+
+@media (max-width:1200px){
+    .header
+{
+    width: 100%;
+    height: 80px;
+}
+.container
+{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.container ul
+{ 
+    display: flex;
+}
+.container ul li
+{
+    list-style: none;
+    padding: 0px 20px;
+}
+.container ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.home::after
+{
+    content: '';
+    border-bottom: 3px solid orangered;
+    width:3%;
+    display: block;
+    margin-top: 25px;
+    position: absolute;
+}
+
+.container ul li a :hover
+{
+    content: '';
+    border-bottom: 1px solid orangered;
+    width: 100%;
+    color: orangered;
+    display: block;
+    transition: 0.5s;
+}
+
+/* bg-main*/
+
+.bg-main
+{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('images/bgimage.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg-content
+{
+    width: 60%;
+    height: 400px;
+    padding: 15px;
+    position: relative;
+    top: 20%;
+    left: 10%;
+}
+.donate
+{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.world
+{
+    font-size: 45px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg-content p
+{
+    font-size: 16px;
+    margin-top: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buttons
+{
+    display: flex;
+    height: 100px;
+    position: relative;
+    top: 80px;
+}
+.btndonate
+{
+   
+    background-color: orangered;
+    border-radius: 30px;
+    height: 55px;
+}
+.btndonate a
+{
+    padding: 0px 40px;
+    color: white;
+    text-decoration: none;
+    line-height: 55px;
+}
+.readbtn
+{
+    border-radius: 30px;
+    height: 55px;
+    margin-left: 10px;
+    border: 1px solid orangered;
+}
+.readbtn a
+{
+    padding: 0px 40px;
+    color: white;
+    text-decoration: none;
+    line-height: 55px;
+}
+.readbtn a:hover
+{
+    background-color: orangered;
+}
+
+/* box */
+.box
+{
+    width: 100%;
+    height: 500px;
+}
+.box-container
+{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.box1
+{
+    width: 30%;
+    height: 320px;
+    background-color: orangered;
+    border-radius: 20px;
+    margin-top: 90px;
+    padding: 20px 30px;
+}
+.box1 img
+{
+    margin-left: 80px;
+    color: white;
+    margin-top: 30px;
+}
+.box1 h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 30px 0px;
+}
+.box1 p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.box2
+{
+    width: 30%;
+    height: 320px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-top: 90px;
+    padding: 20px 30px;
+}
+.box2 i
+{
+    margin-left: 80px;
+    font-size: 70px;
+    position: relative;
+    top: 20px;
+    
+}
+.box2 h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px 0px;
+    margin-top: 20px;
+}
+.box2 p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.box2:hover
+{
+    color: white;
+    background-color: orangered;
+}
+.box3
+{
+    width: 30%;
+    height: 320px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-top: 90px;
+    padding: 20px 30px;
+}
+.box3 img
+{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.box3 h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px 0px;
+}
+.box3 p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.box3:hover
+{
+    color: white;
+    background-color: orangered;
+}
+
+/*data-image*/
+
+.data-image
+{
+    width: 100%;
+    height: 500px;
+}
+.data-image-container
+{
+    width: 100%;
+    height: 500px;
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url('images/bgimage.webp');
+    display: flex;
+}
+.data
+{
+    width: 38%;
+    height: 370px;
+    margin-top: 65px;
+    padding: 10px 20px;
+    margin-left: 150px;
+}
+.data h1::after
+{
+    content: '';
+    display: block;
+    width: 12%;
+    border-bottom: 5px solid orangered;
+    position: relative;
+    top: 5px;
+}
+.data h1
+{
+    color: white;
+    font-size: 40px;
+}
+.data p
+{
+    font-size: 17px;
+    text-align: justify;
+    padding: 40px 10px;
+    color: white;
+}
+.data a
+{
+    border: 1px solid orangered;
+    color: white;
+    padding: 12px 30px ;
+    text-decoration: none;
+    background-color: orangered;
+    border-radius: 30px;
+    position: relative;
+    top: 20px;
+}
+.image
+{
+    width: 39%;
+    height: 340px;
+    background-color: aqua;
+    margin-top: 90px;
+}
+.image img
+{
+    width: 100%;
+    height: 100%;
+}
+}
+
+
+
+@media(max-width:991px){
+    .header
+{
+    width: 100%;
+    height: 80px;
+}
+.container
+{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .logo  img
+{
+    margin-left: 5px;
+}
+.container ul
+{ 
+    display: flex;
+}
+.container ul li
+{
+    list-style: none;
+    padding: 0px 15px;
+}
+.container ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.container ul li a :hover
+{
+    content: '';
+    border-bottom: 1px solid orangered;
+    width: 100%;
+    color: orangered;
+    display: block;
+    transition: 0.5s;
+}
+.home::after
+{
+    content: '';
+    border-bottom: 3px solid orangered;
+    width:5%;
+    display: block;
+    margin-top: 20px;
+    position: absolute;
+}
+.bg-main
+{
+    width: 100%;
+    height: 350px;
+}
+.bg-content
+{
+    width: 70%;
+    height: 300px;
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+.donate
+{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.world
+{
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg-content p
+{
+    font-size: 12px;
+}
+.buttons
+{
+    display: flex;
+    height: 80px;
+    position: relative;
+    top: 40px;
+}
+
+.btndonate
+{
+    height: 50px;
+}
+.btndonate a
+{
+    line-height: 50px;
+}
+.box
+{
+    width: 100%;
+    height: 820px;
+}
+.box-container
+{
+    width: 80%;
+    height: 820px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box1
+{
+    width: 48%;
+    height: 300px;
+    background-color: orangered;
+    border-radius: 20px;
+    margin-top: 90px;
+    margin-left: 5px;
+    padding: 20px 30px;
+}
+.box1 img
+{
+    margin-left: 130px;
+    color: white;
+    margin-top: 30px;
+}
+.box2
+{
+    width: 48%;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-top: 90px;
+    margin-right: 5px;
+    padding: 20px 30px;
+}
+.box2 i
+{
+    margin-left: 130px;
+    font-size: 70px;
+    position: relative;
+    top: 20px;
+    
+}
+.box3
+{
+    width: 48%;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-left: 5px;
+    position: relative;
+    bottom: 70px;
+    padding: 20px 30px;
+}
+.box3 img
+{
+    margin-left: 130px;
+    margin-top: 30px;
+}
+
+.data-image
+{
+    width: 100%;
+    height: 1000px;
+}
+.data-image-container
+{
+    width: 100%;
+    height: 1000px;
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url('images/bgimage.webp');
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.data
+{
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    padding: 10px 20px;
+}
+.image
+{
+    width: 80%;
+    margin: auto;
+    height: 400px;
+    margin-top: 90px;
+}
+
+/* event main */
+.event-main
+{
+    width: 100%;
+    height: 1500px;
+}
+.event-main-container
+{
+    width: 90%;
+    height: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.event
+{
+    width: 100%;
+    height: 660px;
+    margin-top: 50px;
+}
+.features
+{
+    width: 100%;
+    height: 660px;
+    margin-top: 50px;
+}
+.event-data
+{
+    display: flex;
+    width: 100%;
+    height: 180px;
+    margin-top: 50px;
+}
+.event-data .image1
+{
+    width: 40%;
+    height: 160px;
+    margin-top: 10px;
+}
+.info1
+{
+    width: 59%;
+    height: 160px;
+    margin-top: 10px;
+    margin-left: 1%;
+}
+
+.event-data2
+{
+    display: flex;
+    width: 100%;
+    height: 180px;
+    margin-top: 40px;
+}
+.event-data2 .image2
+{
+    width: 40%;
+    height: 160px;
+    margin-top: 10px;
+}
+.info2
+{
+    width: 59%;
+    height: 160px;
+    margin-top: 10px;
+    margin-left: 1%;
+}
+
+.event-data3
+{
+    display: flex;
+    width: 100%;
+    height: 180px;
+    margin-top: 40px;
+}
+.event-data3 .image3
+{
+    width: 40%;
+    height: 160px;
+    margin-top: 10px;
+}
+.info3
+{
+    width: 59%;
+    height: 160px;
+    margin-top: 10px;
+    margin-left: 1%;
+}
+
+
+.features h1::after
+{
+    content: '';
+    width: 10%;
+    border-bottom: 5px solid orangered;
+    display: block;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+}
+.features h1
+{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.feature-container
+{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+}
+.feature-img
+{
+    width: 50%;
+    height: 350px;
+    margin-top: 50px;
+    padding: 10px;
+}
+.feature-data
+{
+    width: 50%;
+    height: 350px;
+    margin-top: 50px;
+    padding: 10px;
+}
+.feature-img img
+{
+    width: 100%;
+    height: 100%;
+}
+.feature-data h2
+{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.date
+{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+}
+.paragraph
+{
+    color: gray;
+    text-align: justify;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.donatebtn
+{
+    color: white;
+    background-color: orangered;
+    padding: 15px 30px;
+    position: relative;
+    border-radius: 20px;
+    top: 70px;
+    left: 20%;
+    text-decoration: none;
+}
+.feature-percent
+{
+    width: 100%;
+    height: 100px;
+    background-color: whitesmoke;
+}
+.feature-donation
+{
+    width: 100%;
+    height: 40px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+.feature-raise
+{
+    color: gray;
+    margin-left: 10px;
+}
+.feature-goal
+{
+    color: gray;
+    margin-right: 10px;
+}
+.box-percent
+{
+    width: 40px;
+    height: 40px;
+    background-color: orangered;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 70%;
+}
+.percent
+{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+.ourcauses
+{
+    width: 100%;
+    height: 1300px;
+    background-image: url('images/our-causes.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.sub-cause
+{
+    width: 80%;
+    margin: auto;
+    height: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.first
+{
+    width: 48%;
+    height: 450px;
+    background-color: whitesmoke;
+}
+.second
+{
+    width: 48%;
+    height: 450px;
+    background-color: whitesmoke;
+}
+.third
+{
+    width: 48%;
+    height: 450px;
+    margin-top: 50px;
+    background-color: whitesmoke;
+}
+
+/* achievement */
+
+.achievement
+{
+    width: 100%;
+    height: 900px;
+}
+.achievement-container
+{
+    width: 80%;
+    height: 800px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.achive-data
+{
+    width: 100%;
+    height: 400px;
+}
+.achive-data p 
+{
+    font-size: 22px;
+}
+.achive-image
+{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* footer */
+.footer
+{
+    width: 100%;
+    height: 900px;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('images/footer-background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer-container
+{
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div1
+{
+    width: 50%;
+    height: 290px;
+}
+.div2
+{
+    width: 50%;
+    height: 290px;
+    padding-left: 30px;
+}
+.div3
+{
+    width: 50%;
+    height: 290px;
+    position: relative;
+    top: 20px;
+}
+.div4
+{
+    width: 50%;
+    height: 290px;
+    position: relative;
+    padding-left: 30px;
+    top: 20px;
+}
+.copyright
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1));
+}
+}
+
+
+
+@media(max-width:768px){
+    .header
+{
+    width: 100%;
+    height: 80px;
+}
+.container
+{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .logo  img
+{
+    margin-left: 5px;
+}
+.container ul
+{ 
+    display: flex;
+}
+.container ul li
+{
+    list-style: none;
+    padding: 0px 15px;
+}
+.container ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.container ul li a :hover
+{
+    content: '';
+    border-bottom: 1px solid orangered;
+    width: 100%;
+    color: orangered;
+    display: block;
+    transition: 0.5s;
+}
+.home::after
+{
+    content: '';
+    border-bottom: 3px solid orangered;
+    width:5%;
+    display: block;
+    margin-top: 20px;
+    position: absolute;
+}
+.bg-main
+{
+    width: 100%;
+    height: 350px;
+}
+.bg-content
+{
+    width: 70%;
+    height: 300px;
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+.donate
+{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.world
+{
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg-content p
+{
+    font-size: 12px;
+}
+.buttons
+{
+    display: flex;
+    height: 80px;
+    position: relative;
+    top: 40px;
+}
+
+.btndonate
+{
+    height: 50px;
+}
+.btndonate a
+{
+    line-height: 50px;
+}
+.box
+{
+    width: 100%;
+    height: 820px;
+}
+.box-container
+{
+    width: 80%;
+    height: 820px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box1
+{
+    width: 48%;
+    height: 300px;
+    background-color: orangered;
+    border-radius: 20px;
+    margin-top: 90px;
+    margin-left: 5px;
+    padding: 20px 30px;
+}
+.box1 img
+{
+    margin-left: 80px;
+    color: white;
+    margin-top: 30px;
+}
+.box2
+{
+    width: 48%;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-top: 90px;
+    margin-right: 5px;
+    padding: 20px 30px;
+}
+.box2 i
+{
+    margin-left: 80px;
+    font-size: 70px;
+    position: relative;
+    top: 20px;
+    
+}
+.box3
+{
+    width: 48%;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-left: 5px;
+    position: relative;
+    bottom: 70px;
+    padding: 20px 30px;
+}
+.box3 img
+{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.data-image
+{
+    width: 100%;
+    height: 1000px;
+}
+.data-image-container
+{
+    width: 100%;
+    height: 1000px;
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url('images/bgimage.webp');
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.data
+{
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    padding: 10px 20px;
+}
+.image
+{
+    width: 80%;
+    margin: auto;
+    height: 400px;
+    margin-top: 90px;
+}
+
+/* event main */
+.event-main
+{
+    width: 100%;
+    height: 1500px;
+}
+.event-main-container
+{
+    width: 90%;
+    height: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.event
+{
+    width: 100%;
+    height: 660px;
+    margin-top: 50px;
+}
+.features
+{
+    width: 100%;
+    height: 660px;
+    margin-top: 50px;
+}
+.event-data
+{
+    display: flex;
+    width: 100%;
+    height: 180px;
+    margin-top: 50px;
+}
+.event-data .image1
+{
+    width: 40%;
+    height: 160px;
+    margin-top: 10px;
+}
+.info1
+{
+    width: 59%;
+    height: 160px;
+    margin-top: 10px;
+    margin-left: 1%;
+}
+
+.event-data2
+{
+    display: flex;
+    width: 100%;
+    height: 180px;
+    margin-top: 40px;
+}
+.event-data2 .image2
+{
+    width: 40%;
+    height: 160px;
+    margin-top: 10px;
+}
+.info2
+{
+    width: 59%;
+    height: 160px;
+    margin-top: 10px;
+    margin-left: 1%;
+}
+
+.event-data3
+{
+    display: flex;
+    width: 100%;
+    height: 180px;
+    margin-top: 40px;
+}
+.event-data3 .image3
+{
+    width: 40%;
+    height: 160px;
+    margin-top: 10px;
+}
+.info3
+{
+    width: 59%;
+    height: 160px;
+    margin-top: 10px;
+    margin-left: 1%;
+}
+
+
+.features h1::after
+{
+    content: '';
+    width: 10%;
+    border-bottom: 5px solid orangered;
+    display: block;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+}
+.features h1
+{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.feature-container
+{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+}
+.feature-img
+{
+    width: 50%;
+    height: 350px;
+    margin-top: 50px;
+    padding: 10px;
+}
+.feature-data
+{
+    width: 50%;
+    height: 350px;
+    margin-top: 50px;
+    padding: 10px;
+}
+.feature-img img
+{
+    width: 100%;
+    height: 100%;
+}
+.feature-data h2
+{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.date
+{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+}
+.paragraph
+{
+    color: gray;
+    text-align: justify;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.donatebtn
+{
+    color: white;
+    background-color: orangered;
+    padding: 15px 30px;
+    position: relative;
+    border-radius: 20px;
+    top: 70px;
+    left: 20%;
+    text-decoration: none;
+}
+.feature-percent
+{
+    width: 100%;
+    height: 100px;
+    background-color: whitesmoke;
+}
+.feature-donation
+{
+    width: 100%;
+    height: 40px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+.feature-raise
+{
+    color: gray;
+    margin-left: 10px;
+}
+.feature-goal
+{
+    color: gray;
+    margin-right: 10px;
+}
+.box-percent
+{
+    width: 40px;
+    height: 40px;
+    background-color: orangered;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 70%;
+}
+.percent
+{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+.ourcauses
+{
+    width: 100%;
+    height: 1300px;
+    background-image: url('images/our-causes.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.sub-cause
+{
+    width: 80%;
+    margin: auto;
+    height: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.first
+{
+    width: 48%;
+    height: 450px;
+    background-color: whitesmoke;
+}
+.second
+{
+    width: 48%;
+    height: 450px;
+    background-color: whitesmoke;
+}
+.third
+{
+    width: 48%;
+    height: 450px;
+    margin-top: 50px;
+    background-color: whitesmoke;
+}
+
+/* achievement */
+
+.achievement
+{
+    width: 100%;
+    height: 900px;
+}
+.achievement-container
+{
+    width: 80%;
+    height: 800px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.achive-data
+{
+    width: 100%;
+    height: 400px;
+}
+.achive-image
+{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* footer */
+.footer
+{
+    width: 100%;
+    height: 900px;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('images/footer-background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer-container
+{
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div1
+{
+    width: 50%;
+    height: 290px;
+}
+.div2
+{
+    width: 50%;
+    height: 290px;
+    padding-left: 30px;
+}
+.div3
+{
+    width: 50%;
+    height: 290px;
+    position: relative;
+    top: 20px;
+}
+.div4
+{
+    width: 50%;
+    height: 290px;
+    position: relative;
+    padding-left: 30px;
+    top: 20px;
+}
+.copyright
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1));
+}
+}
+
+
+
+@media(max-width:576px)
+{
+    .header
+{
+    width: 100%;
+    height: 300px;
+}
+.container
+{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.container .logo
+{
+    text-align: center;
+    margin-top: 30px;
+}
+.container ul
+{ 
+    display: flex;
+    flex-direction: column;
+}
+.container ul li
+{
+    list-style: none;
+    padding: 10px 0px;
+}
+.home::after
+{
+    content: '';
+    border-bottom: 3px solid orangered;
+    width:10%;
+    display: block;
+    margin-top: 10px;
+    position: absolute;
+}
+.bg-main
+{
+    width: 100%;
+    height: 300px;
+}
+.bg-content
+{
+    width: 80%;
+    height: 250px;
+    padding: 10px;
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+.donate
+{
+    font-size: 40px;
+}
+.world
+{
+    font-size: 32px;
+}
+.bg-content p
+{
+    font-size: 12px;
+    margin-top: 30px;
+}
+.buttons
+{
+    display: flex;
+    height: 70px;
+    position: relative;
+    top: 30px;
+}
+.btndonate
+{
+    height: 50px;
+}
+.btndonate a
+{
+    line-height: 50px;
+    text-align: center;
+}
+.readbtn
+{
+    height: 50px;
+}
+.readbtn a
+{
+    line-height: 50px;
+    text-align: center;
+}
+.box
+{
+    width: 100%;
+    height: 1100px;
+}
+.box-container
+{
+    width: 90%;
+    height: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.box1
+{
+    width: 80%;
+    height: 300px;
+    background-color: orangered;
+    border-radius: 20px;
+    margin-top: 80px;
+    padding: 20px 30px;
+    margin: auto;
+}
+.box1 img
+{
+    margin-left: 150px;
+    color: white;
+    margin-top: 30px;
+}
+.box2
+{
+    width: 80%;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 20px 30px;
+    margin: auto;
+}
+.box2 i
+{
+    margin-left: 150px;
+    font-size: 70px;
+    position: relative;
+    top: 20px;
+}
+.box3
+{
+    width: 80%;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    position: relative;
+    top: 3px;
+    padding: 20px 30px;
+    margin: auto;
+}
+.box3 img
+{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.data h1
+{
+    font-size: 32px;
+}
+.data p
+{
+    font-size: 14px;
+}
+.info1 .small
+{
+    font-size: 13px;
+    margin: 15px 0px;
+}
+.info1 .orange
+{
+    position: relative;
+    top: 10px;
+}
+#small2
+{
+    font-size: 13px;
+    margin: 9px 0px;
+}
+#gray2
+{
+    font-size: 13px;
+    margin: 5px 0px;
+}
+#orange2
+{
+    position: relative;
+    top: 0px;
+}
+#small3
+{
+    font-size: 13px;
+    margin: 9px 0px;
+}
+#gray3
+{
+    font-size: 13px;
+    margin: 5px 0px;
+}
+#orange3
+{
+    position: relative;
+    top: 0px;
+}
+
+.paragraph
+{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.ourcauses
+{
+    height: 1700px;
+}
+.sub-cause
+{
+    height: 1700px;
+}
+
+.first
+{
+    width: 80%;
+    margin: auto;
+    height: 450px;
+    background-color: whitesmoke;
+}
+.first .cause-data h3 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+.first .cause-data p
+{
+    color: gray;
+    font-size: 16px;
+    padding: 0px 20px;
+    margin-top: 15px;
+}
+.first .cause-box
+{
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+}
+.second
+{
+    width: 80%;
+    margin: auto;
+    height: 450px;
+    background-color: whitesmoke;
+}
+.third
+{
+    width: 80%;
+    margin: auto;
+    height: 450px;
+    background-color: whitesmoke;
+}
+
+.achievement
+{
+    width: 100%;
+    height: 900px;
+}
+.achievement-container
+{
+    width: 70%;
+    height: 700px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+}
+.achive-data
+{
+    width: 100%;
+    height: 400px;
+}
+.achive-data h1
+{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
+}
+.achive-image
+{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer
+{
+    width: 100%;
+    height: 800px;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('images/footer-background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer-container
+{
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div1
+{
+    width: 50%;
+    height: 290px;
+}
+.div2
+{
+    width: 50%;
+    height: 290px;
+}
+.div3
+{
+    width: 50%;
+    height: 290px;
+}
+.div4
+{
+    width: 50%;
+    height: 290px;
+}
+.footer-para p
+{
+    color: gray;
+    font-size: 14px;
+    text-align: justify;
+}
+.footer-logo
+{
+    margin-top: 10px;
+}
+
+.copyright p
+{
+    font-size: 14px;
+}
+
+}
+
+
+/* for mobile */
+
+
+@media(max-width:480px)
+{
+    .header
+{
+    width: 100%;
+    height: 300px;
+}
+.container
+{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.container .logo
+{
+    text-align: center;
+    margin-top: 30px;
+}
+.container ul
+{ 
+    display: flex;
+    flex-direction: column;
+}
+.container ul li
+{
+    list-style: none;
+    padding: 10px 0px;
+}
+.home::after
+{
+    content: '';
+    border-bottom: 3px solid orangered;
+    width:10%;
+    display: block;
+    margin-top: 10px;
+    position: absolute;
+}
+.bg-main
+{
+    width: 100%;
+    height: 300px;
+}
+.bg-content
+{
+    width: 80%;
+    height: 250px;
+    padding: 10px;
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+.donate
+{
+    font-size: 40px;
+}
+.world
+{
+    font-size: 32px;
+}
+.bg-content p
+{
+    font-size: 12px;
+    margin-top: 30px;
+}
+.buttons
+{
+    display: flex;
+    height: 70px;
+    position: relative;
+    top: 30px;
+}
+.btndonate
+{
+    height: 50px;
+}
+.btndonate a
+{
+    line-height: 50px;
+    text-align: center;
+}
+.readbtn
+{
+    height: 50px;
+}
+.readbtn a
+{
+    line-height: 50px;
+    text-align: center;
+}
+.box
+{
+    width: 100%;
+    height: 1100px;
+}
+.box-container
+{
+    width: 90%;
+    height: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.box1
+{
+    width: 80%;
+    height: 300px;
+    background-color: orangered;
+    border-radius: 20px;
+    margin-top: 80px;
+    padding: 20px 30px;
+    margin: auto;
+}
+.box1 img
+{
+    margin-left: 120px;
+    color: white;
+    margin-top: 30px;
+}
+.box2
+{
+    width: 80%;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 20px 30px;
+    margin: auto;
+}
+.box2 i
+{
+    margin-left: 120px;
+    font-size: 70px;
+    position: relative;
+    top: 20px;
+}
+.box3
+{
+    width: 80%;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    position: relative;
+    top: 3px;
+    padding: 20px 30px;
+    margin: auto;
+}
+.box3 img
+{
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.data h1
+{
+    font-size: 32px;
+}
+.data p
+{
+    font-size: 14px;
+}
+.info1 .small
+{
+    font-size: 13px;
+    margin: 15px 0px;
+}
+.info1 .orange
+{
+    position: relative;
+    top: 10px;
+}
+#small2
+{
+    font-size: 13px;
+    margin: 9px 0px;
+}
+#gray2
+{
+    font-size: 13px;
+    margin: 5px 0px;
+}
+#orange2
+{
+    position: relative;
+    top: 0px;
+}
+#small3
+{
+    font-size: 13px;
+    margin: 9px 0px;
+}
+#gray3
+{
+    font-size: 13px;
+    margin: 5px 0px;
+}
+#orange3
+{
+    position: relative;
+    top: 0px;
+}
+
+.paragraph
+{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.ourcauses
+{
+    height: 1700px;
+}
+.sub-cause
+{
+    height: 1700px;
+}
+
+.first
+{
+    width: 80%;
+    margin: auto;
+    height: 450px;
+    background-color: whitesmoke;
+}
+.first .cause-data h3 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+.first .cause-data p
+{
+    color: gray;
+    font-size: 16px;
+    padding: 0px 20px;
+    margin-top: 15px;
+}
+.first .cause-box
+{
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+}
+.second
+{
+    width: 80%;
+    margin: auto;
+    height: 450px;
+    background-color: whitesmoke;
+}
+.third
+{
+    width: 80%;
+    margin: auto;
+    height: 450px;
+    background-color: whitesmoke;
+}
+
+.achievement
+{
+    width: 100%;
+    height: 900px;
+}
+.achievement-container
+{
+    width: 70%;
+    height: 700px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+}
+.achive-data
+{
+    width: 100%;
+    height: 400px;
+}
+.achive-data h1
+{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
+}
+.achive-image
+{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    position: relative;
+    top: 20px;
+    justify-content: space-around;
+}
+
+.footer
+{
+    width: 100%;
+    height: 1400px;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('images/footer-background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer-container
+{
+    width: 80%;
+    height: 1200px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div1
+{
+    width: 100%;
+    height: 300px;
+}
+.footer-logo
+{
+    position: relative;
+    top: -30px;
+}
+.div2
+{
+    width: 100%;
+    height: 300px;
+}
+.div2 ul
+{
+    position: relative;
+    top: -50px;
+}
+.div3
+{
+    width: 100%;
+    height: 300px;
+    padding-left: 30px;
+}
+.div4
+{
+    width: 100%;
+    height: 300px;
+}
+.leader
+{
+    position: relative;
+    top: -40px;
+}
+.email-send
+{
+    position: relative;
+    top: -20px;
+}
+.copyright
+{
+    height: 100px;
+}
+.copyright p
+{
+    font-size: 12px;
+}
+
+}
+
+
+@media(max-width:425px)
+{
+    .donate
+    {
+        font-size: 32px;
+    }
+    .world
+    {
+        font-size: 26px;
+    } 
+    .btndonate
+    {
+        font-size: 10px;
+    }
+    .box
+{
+    width: 100%;
+    height: 1100px;
+}
+.box-container
+{
+    width: 90%;
+    height: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.box1
+{
+    width: 90%;
+    height: 300px;
+    background-color: orangered;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 20px ;
+    margin: auto;
+}
+.box1 img
+{
+    margin-left: 120px;
+    color: white;
+    margin-top: 20px;
+}
+.box2
+{
+    width: 90%;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 20px ;
+    margin: auto;
+}
+.box2 i
+{
+    margin-left: 120px;
+    font-size: 60px;
+    position: relative;
+    top: 20px;
+}
+.box3
+{
+    width: 90%;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    position: relative;
+    top: 3px;
+    padding: 20px 30px;
+    margin: auto;
+}
+.box3 img
+{
+    margin-left: 120px;
+    margin-top: 20px;
+} 
+
+.data-image
+{
+    width: 100%;
+    height: 1000px;
+}
+.data-image-container
+{
+    width: 100%;
+    height: 1000px;
+}
+.image
+{
+    height: 300px;
+}
+.data
+{
+    margin-top: 0px;
+}
+
+.event-main
+{
+    width: 100%;
+    height: 1700px;
+}
+.event-main-container
+{
+    width: 100%;
+    height: 2000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.event
+{
+    width: 100%;
+    height: 800px;
+    margin-left: 1%;
+    margin-top: 95px;
+}
+.event-data
+{
+    display: flex;
+    width: 100%;
+    height: 205px;
+    margin-top: 50px;
+}
+.event-data .image1
+{
+    width: 40%;
+    height: 190px;
+    margin-top: 10px;
+}
+.event-data .image1 img
+{
+    height: 190px;
+    width: 100%;
+}
+.event-data2
+{
+    display: flex;
+    width: 100%;
+    height: 205px;
+    margin-top: 50px;
+}
+.event-data3
+{
+    display: flex;
+    width: 100%;
+    height: 205px;
+    margin-top: 50px;
+}
+.features
+{
+    width: 100%;
+    height: 800px;
+    margin-left: 0%;
+    position: relative;
+    top: -150px;
+}
+.feature-container
+{
+    width: 100%;
+    height: 800px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+}
+.feature-img
+{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    padding: 0px;
+}
+.feature-data
+{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    padding: 10px;
+}
+.feature-img
+{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    padding: 10px;
+}
+.donatebtn
+{
+    color: white;
+    background-color: orangered;
+    position: relative;
+    border-radius: 20px;
+    top: 20px;
+    text-decoration: none;
+}
+.feature-percent
+{
+    width: 100%;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+/* cause */
+.first
+{
+    width: 100%;
+    height: 450px;
+    background-color: whitesmoke;
+}
+.first .cause-image
+{
+    width: 100%;
+    height: 150px;
+}
+.first .cause-image img
+{
+    width: 100%;
+    height: 100%;
+}
+.first .cause-data h3 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    padding: 0px 20px;
+}
+.first .cause-data p
+{
+    color: gray;
+    font-size: 14px;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+.first .cause-box
+{
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+}
+
+
+.second
+{
+    width: 100%;
+    height: 450px;
+    background-color: whitesmoke;
+}
+.second .cause-image
+{
+    width: 100%;
+    height: 150px;
+}
+.second .cause-image img
+{
+    width: 100%;
+    height: 100%;
+}
+.second .cause-data h3 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    padding: 0px 20px;
+}
+.second .cause-data p
+{
+    color: gray;
+    font-size: 14px;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+.second .cause-box
+{
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.third
+{
+    width: 100%;
+    height: 450px;
+    background-color: whitesmoke;
+}
+.third .cause-image
+{
+    width: 100%;
+    height: 150px;
+}
+.third .cause-image img
+{
+    width: 100%;
+    height: 100%;
+}
+.third .cause-data h3 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    padding: 0px 20px;
+}
+.third .cause-data p
+{
+    color: gray;
+    font-size: 14px;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+.third .cause-box
+{
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+}
+
+/* achievement */
+
+.achievement
+{
+    width: 100%;
+    height: 900px;
+}
+.achievement-container
+{
+    width: 80%;
+    height: 750px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.achive-data
+{
+    width: 100%;
+    height: 400px;
+}
+.achive-data h1
+{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+.achive-image
+{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+}
+
+.footer
+{
+    width: 100%;
+    height: 1500px;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('images/footer-background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer-container
+{
+    width: 80%;
+    height: 1250px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div1
+{
+    width: 100%;
+    height: 300px;
+}
+.footer-logo
+{
+    position: relative;
+    top: -30px;
+}
+.div2
+{
+    width: 100%;
+    height: 300px;
+}
+.div2 ul
+{
+    position: relative;
+    top: -50px;
+}
+.div3
+{
+    width: 100%;
+    height: 300px;
+    padding-left: 30px;
+}
+.div4
+{
+    width: 100%;
+    height: 300px;
+}
+.leader
+{
+    position: relative;
+    top: -40px;
+}
+.email-send
+{
+    position: relative;
+    top: -20px;
+}
+.copyright
+{
+    height: 100px;
+}
+.copyright p
+{
+    font-size: 12px;
+}
+
+}
+
+
+@media(max-width:380px)
+{
+    .donate
+    {
+        font-size: 32px;
+    }
+    .world
+    {
+        font-size: 26px;
+    } 
+    .btndonate
+    {
+        font-size: 12px;
+    }
+    .readbtn
+    {
+        font-size: 12px;
+    }
+    .btndonate a
+{
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+    line-height: 55px;
+}
+.readbtn a
+{
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+    line-height: 55px;
+}
+    .box
+{
+    width: 100%;
+    height: 1100px;
+}
+.box-container
+{
+    width: 90%;
+    height: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.box1
+{
+    width: 90%;
+    height: 300px;
+    background-color: orangered;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 20px ;
+    margin: auto;
+}
+.box1 img
+{
+    margin-left: 100px;
+    color: white;
+    margin-top: 20px;
+}
+.box2
+{
+    width: 90%;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 20px ;
+    margin: auto;
+}
+.box2 i
+{
+    margin-left: 100px;
+    font-size: 60px;
+    position: relative;
+    top: 20px;
+}
+.box3
+{
+    width: 90%;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    position: relative;
+    top: 3px;
+    padding: 20px 30px;
+    margin: auto;
+}
+.box3 img
+{
+    margin-left: 100px;
+    margin-top: 20px;
+} 
+
+.data-image
+{
+    width: 100%;
+    height: 1000px;
+}
+.data-image-container
+{
+    width: 100%;
+    height: 1000px;
+}
+.image
+{
+    height: 300px;
+}
+.data
+{
+    margin-top: 0px;
+}
+
+.event-main
+{
+    width: 100%;
+    height: 1700px;
+}
+.event-main-container
+{
+    width: 100%;
+    height: 2000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.event
+{
+    width: 100%;
+    height: 800px;
+    margin-left: 1%;
+    margin-top: 95px;
+}
+.event-data
+{
+    display: flex;
+    width: 100%;
+    height: 205px;
+    margin-top: 50px;
+}
+.event-data .image1
+{
+    width: 40%;
+    height: 190px;
+    margin-top: 10px;
+}
+.event-data .image1 img
+{
+    height: 190px;
+    width: 100%;
+}
+.event-data2
+{
+    display: flex;
+    width: 100%;
+    height: 205px;
+    margin-top: 50px;
+}
+.event-data3
+{
+    display: flex;
+    width: 100%;
+    height: 205px;
+    margin-top: 50px;
+}
+.features
+{
+    width: 100%;
+    height: 800px;
+    margin-left: 0%;
+    position: relative;
+    top: -150px;
+}
+.feature-container
+{
+    width: 100%;
+    height: 800px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+}
+.feature-img
+{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    padding: 0px;
+}
+.feature-data
+{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    padding: 10px;
+}
+.feature-img
+{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    padding: 10px;
+}
+.donatebtn
+{
+    color: white;
+    background-color: orangered;
+    position: relative;
+    border-radius: 20px;
+    top: 20px;
+    text-decoration: none;
+}
+.feature-percent
+{
+    width: 100%;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+/* cause */
+.first
+{
+    width: 100%;
+    height: 450px;
+    background-color: whitesmoke;
+}
+.first .cause-image
+{
+    width: 100%;
+    height: 150px;
+}
+.first .cause-image img
+{
+    width: 100%;
+    height: 100%;
+}
+.first .cause-data h3 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    padding: 0px 20px;
+}
+.first .cause-data p
+{
+    color: gray;
+    font-size: 14px;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+.first .cause-box
+{
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+}
+
+
+.second
+{
+    width: 100%;
+    height: 450px;
+    background-color: whitesmoke;
+}
+.second .cause-image
+{
+    width: 100%;
+    height: 150px;
+}
+.second .cause-image img
+{
+    width: 100%;
+    height: 100%;
+}
+.second .cause-data h3 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    padding: 0px 20px;
+}
+.second .cause-data p
+{
+    color: gray;
+    font-size: 14px;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+.second .cause-box
+{
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.third
+{
+    width: 100%;
+    height: 450px;
+    background-color: whitesmoke;
+}
+.third .cause-image
+{
+    width: 100%;
+    height: 150px;
+}
+.third .cause-image img
+{
+    width: 100%;
+    height: 100%;
+}
+.third .cause-data h3 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    padding: 0px 20px;
+}
+.third .cause-data p
+{
+    color: gray;
+    font-size: 14px;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+.third .cause-box
+{
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+}
+
+/* achievement */
+
+.achievement
+{
+    width: 100%;
+    height: 1000px;
+}
+.achievement-container
+{
+    width: 70%;
+    height: 900px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.achive-data
+{
+    width: 100%;
+    height: 400px;
+}
+.achive-data h1
+{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+.achive-image
+{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+}
+
+.footer
+{
+    width: 100%;
+    height: 1500px;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('images/footer-background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer-container
+{
+    width: 80%;
+    height: 1250px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div1
+{
+    width: 100%;
+    height: 300px;
+}
+.footer-logo
+{
+    position: relative;
+    top: -30px;
+}
+.div2
+{
+    width: 100%;
+    height: 300px;
+}
+.div2 ul
+{
+    position: relative;
+    top: -50px;
+}
+.div3
+{
+    width: 100%;
+    height: 300px;
+    padding-left: 30px;
+}
+.div4
+{
+    width: 100%;
+    height: 300px;
+}
+.leader
+{
+    position: relative;
+    top: -40px;
+}
+.email-send
+{
+    position: relative;
+    top: -20px;
+}
+.copyright
+{
+    height: 100px;
+}
+.copyright p
+{
+    font-size: 10px;
+}
+
+}
+
+
+@media(min-width:321px) and (max-width:350px)
+{
+    .donate
+    {
+        font-size: 32px;
+    }
+    .world
+    {
+        font-size: 26px;
+    } 
+    .btndonate
+    {
+        font-size: 12px;
+    }
+    .box
+{
+    width: 100%;
+    height: 1100px;
+}
+.box-container
+{
+    width: 90%;
+    height: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.box1
+{
+    width: 90%;
+    height: 300px;
+    background-color: orangered;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 20px ;
+    margin: auto;
+}
+.box1 img
+{
+    margin-left: 80px;
+    color: white;
+    margin-top: 20px;
+}
+.box2
+{
+    width: 90%;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 20px ;
+    margin: auto;
+}
+.box2 i
+{
+    margin-left: 80px;
+    font-size: 60px;
+    position: relative;
+    top: 20px;
+}
+.box3
+{
+    width: 90%;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    position: relative;
+    top: 3px;
+    padding: 20px 30px;
+    margin: auto;
+}
+.box3 img
+{
+    margin-left: 80px;
+    margin-top: 20px;
+} 
+
+.data-image
+{
+    width: 100%;
+    height: 1000px;
+}
+.data-image-container
+{
+    width: 100%;
+    height: 1000px;
+}
+.image
+{
+    height: 300px;
+}
+.data
+{
+    margin-top: 0px;
+}
+
+.event-main
+{
+    width: 100%;
+    height: 1700px;
+}
+.event-main-container
+{
+    width: 100%;
+    height: 2000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.event
+{
+    width: 100%;
+    height: 800px;
+    margin-left: 1%;
+    margin-top: 95px;
+}
+.event-data
+{
+    display: flex;
+    width: 100%;
+    height: 205px;
+    margin-top: 50px;
+}
+.event-data .image1
+{
+    width: 40%;
+    height: 190px;
+    margin-top: 10px;
+}
+.event-data .image1 img
+{
+    height: 190px;
+    width: 100%;
+}
+.event-data2
+{
+    display: flex;
+    width: 100%;
+    height: 205px;
+    margin-top: 50px;
+}
+.event-data3
+{
+    display: flex;
+    width: 100%;
+    height: 205px;
+    margin-top: 50px;
+}
+.features
+{
+    width: 100%;
+    height: 800px;
+    margin-left: 0%;
+    position: relative;
+    top: -150px;
+}
+.feature-container
+{
+    width: 100%;
+    height: 800px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+}
+.feature-img
+{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    padding: 0px;
+}
+.feature-data
+{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    padding: 10px;
+}
+.feature-img
+{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    padding: 10px;
+}
+.donatebtn
+{
+    color: white;
+    background-color: orangered;
+    position: relative;
+    border-radius: 20px;
+    top: 20px;
+    text-decoration: none;
+}
+.feature-percent
+{
+    width: 100%;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+/* cause */
+.first
+{
+    width: 100%;
+    height: 450px;
+    background-color: whitesmoke;
+}
+.first .cause-image
+{
+    width: 100%;
+    height: 150px;
+}
+.first .cause-image img
+{
+    width: 100%;
+    height: 100%;
+}
+.first .cause-data h3 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    padding: 0px 20px;
+}
+.first .cause-data p
+{
+    color: gray;
+    font-size: 14px;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+.first .cause-box
+{
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.second
+{
+    width: 100%;
+    height: 450px;
+    background-color: whitesmoke;
+}
+.second .cause-image
+{
+    width: 100%;
+    height: 150px;
+}
+.second .cause-image img
+{
+    width: 100%;
+    height: 100%;
+}
+.second .cause-data h3 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    padding: 0px 20px;
+}
+.second .cause-data p
+{
+    color: gray;
+    font-size: 14px;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+.second .cause-box
+{
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.third
+{
+    width: 100%;
+    height: 450px;
+    background-color: whitesmoke;
+}
+.third .cause-image
+{
+    width: 100%;
+    height: 150px;
+}
+.third .cause-image img
+{
+    width: 100%;
+    height: 100%;
+}
+.third .cause-data h3 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    padding: 0px 20px;
+}
+.third .cause-data p
+{
+    color: gray;
+    font-size: 14px;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+.third .cause-box
+{
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+}
+
+/* achievement */
+
+.achievement
+{
+    width: 100%;
+    height: 1000px;
+}
+.achievement-container
+{
+    width: 70%;
+    height: 900px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.achive-data
+{
+    width: 100%;
+    height: 400px;
+}
+.achive-data h1
+{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+.achive-image
+{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    position: relative;
+    top: 50px;
+    align-items: end;
+    justify-content: space-around;
+}
+
+.footer
+{
+    width: 100%;
+    height: 1500px;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('images/footer-background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer-container
+{
+    width: 80%;
+    height: 1250px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div1
+{
+    width: 100%;
+    height: 300px;
+}
+.footer-logo
+{
+    position: relative;
+    top: -30px;
+}
+.div2
+{
+    width: 100%;
+    height: 300px;
+}
+.div2 ul
+{
+    position: relative;
+    top: -50px;
+}
+.div3
+{
+    width: 100%;
+    height: 300px;
+    padding-left: 30px;
+}
+.div4
+{
+    width: 100%;
+    height: 300px;
+}
+.leader
+{
+    position: relative;
+    top: -40px;
+}
+.email-send
+{
+    position: relative;
+    top: -20px;
+}
+.copyright
+{
+    height: 100px;
+}
+.copyright p
+{
+    font-size: 10px;
+}
+
+}
+
+
+@media(max-width:320px)
+{
+    .donate
+    {
+        font-size: 32px;
+    }
+    .world
+    {
+        font-size: 26px;
+    } 
+    .box
+{
+    width: 100%;
+    height: 1100px;
+}
+.box-container
+{
+    width: 90%;
+    height: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.box1
+{
+    width: 90%;
+    height: 300px;
+    background-color: orangered;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 20px ;
+    margin: auto;
+}
+.box1 img
+{
+    margin-left: 70px;
+    color: white;
+    margin-top: 20px;
+}
+.box2
+{
+    width: 90%;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 20px ;
+    margin: auto;
+}
+.box2 i
+{
+    margin-left: 70px;
+    font-size: 60px;
+    position: relative;
+    top: 20px;
+}
+.box3
+{
+    width: 90%;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    position: relative;
+    top: 3px;
+    padding: 20px 30px;
+    margin: auto;
+}
+.box3 img
+{
+    margin-left: 70px;
+    margin-top: 20px;
+} 
+
+.data-image
+{
+    width: 100%;
+    height: 1000px;
+}
+.data-image-container
+{
+    width: 100%;
+    height: 1000px;
+}
+.image
+{
+    height: 300px;
+}
+.data
+{
+    margin-top: 0px;
+}
+
+.event-main
+{
+    width: 100%;
+    height: 1700px;
+}
+.event-main-container
+{
+    width: 100%;
+    height: 2000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.event
+{
+    width: 100%;
+    height: 800px;
+    margin-left: 1%;
+    margin-top: 95px;
+}
+.event-data
+{
+    display: flex;
+    width: 100%;
+    height: 205px;
+    margin-top: 50px;
+}
+.event-data .image1
+{
+    width: 40%;
+    height: 190px;
+    margin-top: 10px;
+}
+.event-data .image1 img
+{
+    height: 190px;
+    width: 100%;
+}
+.event-data2
+{
+    display: flex;
+    width: 100%;
+    height: 205px;
+    margin-top: 50px;
+}
+.event-data3
+{
+    display: flex;
+    width: 100%;
+    height: 205px;
+    margin-top: 50px;
+}
+.features
+{
+    width: 100%;
+    height: 800px;
+    margin-left: 0%;
+    position: relative;
+    top: -150px;
+}
+.feature-container
+{
+    width: 100%;
+    height: 800px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+}
+.feature-img
+{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    padding: 0px;
+}
+.feature-data
+{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    padding: 10px;
+}
+.feature-img
+{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    padding: 10px;
+}
+.donatebtn
+{
+    color: white;
+    background-color: orangered;
+    position: relative;
+    border-radius: 20px;
+    top: 20px;
+    text-decoration: none;
+}
+.feature-percent
+{
+    width: 100%;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+/* cause */
+.first
+{
+    width: 100%;
+    height: 450px;
+    background-color: whitesmoke;
+}
+.first .cause-image
+{
+    width: 100%;
+    height: 150px;
+}
+.first .cause-image img
+{
+    width: 100%;
+    height: 100%;
+}
+.first .cause-data h3 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    padding: 0px 20px;
+}
+.first .cause-data p
+{
+    color: gray;
+    font-size: 14px;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+.first .cause-box
+{
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.second
+{
+    width: 100%;
+    height: 450px;
+    background-color: whitesmoke;
+}
+.second .cause-image
+{
+    width: 100%;
+    height: 150px;
+}
+.second .cause-image img
+{
+    width: 100%;
+    height: 100%;
+}
+.second .cause-data h3 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    padding: 0px 20px;
+}
+.second .cause-data p
+{
+    color: gray;
+    font-size: 14px;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+.second .cause-box
+{
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.third
+{
+    width: 100%;
+    height: 450px;
+    background-color: whitesmoke;
+}
+.third .cause-image
+{
+    width: 100%;
+    height: 150px;
+}
+.third .cause-image img
+{
+    width: 100%;
+    height: 100%;
+}
+.third .cause-data h3 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    padding: 0px 20px;
+}
+.third .cause-data p
+{
+    color: gray;
+    font-size: 14px;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+.third .cause-box
+{
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+}
+
+/* achievement */
+
+.achievement
+{
+    width: 100%;
+    height: 1100px;
+}
+.achievement-container
+{
+    width: 70%;
+    height: 900px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.achive-data
+{
+    width: 100%;
+    height: 400px;
+}
+.achive-data h1
+{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+.achive-image
+{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: end;
+    position: relative;
+    top: 80px;
+    justify-content: space-around;
+}
+
+.footer
+{
+    width: 100%;
+    height: 1500px;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('images/footer-background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer-container
+{
+    width: 80%;
+    height: 1250px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div1
+{
+    width: 100%;
+    height: 300px;
+}
+.footer-logo
+{
+    position: relative;
+    top: -30px;
+}
+.div2
+{
+    width: 100%;
+    height: 300px;
+}
+.div2 ul
+{
+    position: relative;
+    top: -50px;
+}
+.div3
+{
+    width: 100%;
+    height: 300px;
+    padding-left: 30px;
+}
+.div4
+{
+    width: 100%;
+    height: 300px;
+}
+.leader
+{
+    position: relative;
+    top: -40px;
+}
+.email-send
+{
+    position: relative;
+    top: -20px;
+}
+.copyright
+{
+    height: 100px;
+}
+.copyright p
+{
+    font-size: 9px;
+}
+
+}

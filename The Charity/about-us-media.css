@@ -1,0 +1,4524 @@
+
+@media(max-width:1200px)
+{
+    .header
+{
+    width: 100%;
+    height: 80px;
+}
+.container
+{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.container ul
+{ 
+    display: flex;
+}
+.container ul li
+{
+    list-style: none;
+    padding: 0px 10px;
+}
+.container ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.image
+{
+    width: 45%;
+    height: 400px;
+}
+
+.percent
+{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+.sub-percent
+{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.first-percent
+{
+    width: 23%;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative;
+   
+}
+.first-percent img
+{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+}
+.percentage
+{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 120px;
+}
+.sub-percenatge
+{
+    width: 120px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.number
+{
+    width: 50%;
+    height: 50px;
+    margin-left: 10px;
+    position: relative;
+    top: -15px;
+}
+.number p
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.sign
+{
+    width: 50%;
+    height: 50px;
+    position: relative;
+    top: -15px;
+}
+.sign p
+{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.second-percent
+{
+    width: 23%;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative;
+}
+.second-percent img
+{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+}
+.second-percent .percentage
+{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 120px;
+}
+.second-percent .sub-percenatge
+{
+    width: 120px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-percent .number
+{
+    width: 50%;
+    height: 50px;
+    margin-left: 10px;
+    position: relative;
+    top: -15px;
+}
+.second-percent .number p
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.second-percent .sign
+{
+    width: 50%;
+    height: 50px;
+    position: relative;
+    top: -15px;
+}
+.second-percent .sign p
+{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    position: relative;
+    right: 15px;
+}
+
+.third-percent
+{
+    width: 23%;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative; 
+}
+.third-percent img
+{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+}
+.third-percent .percentage
+{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 120px;
+}
+.third-percent .sub-percenatge
+{
+    width: 120px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third-percent .number
+{
+    width: 50%;
+    height: 50px;
+    margin-left: 10px;
+    position: relative;
+    top: -15px;
+}
+.third-percent .number p
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.third-percent .sign
+{
+    width: 50%;
+    height: 50px;
+    position: relative;
+    top: -15px;
+}
+.third-percent .sign p
+{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.fourth-percent
+{
+    width: 23%;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative;
+   
+}
+.fourth-percent img
+{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+}
+.fourth-percent .percentage
+{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 120px;
+}
+.fourth-percent .sub-percenatge
+{
+    width: 120px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fourth-percent .number
+{
+    width: 50%;
+    height: 50px;
+    margin-left: 10px;
+    position: relative;
+    top: -15px;
+}
+.fourth-percent .number p
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.fourth-percent .sign
+{
+    width: 50%;
+    height: 50px;
+    position: relative;
+    top: -15px;
+}
+.fourth-percent .sign p
+{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+/* achieved */
+
+.achieved
+{
+    width: 100%;
+    height: 500px;
+}
+.sub-achieved
+{
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+    display: flex;
+    position: relative;
+    top: 50px;
+
+}
+.box1
+{
+    width: 50%;
+    height: 320px;
+}
+.box-h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 30%;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.box2
+{
+    width: 50%;
+    height: 320px;
+    
+}
+.box-h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 30%;
+    text-align: justify;
+    font-size: 25px;
+}
+
+
+/* help */
+
+.help
+{
+    width: 100%;
+    height: 250px;
+    background-color: orangered;
+}
+.sub-help
+{
+    width: 80%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0px 20px;
+}
+.help-h1 h1
+{
+    color: white;
+    font-size: 30px;
+}
+.help-button a
+{
+    color: white;
+    background-color: orangered;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 3px solid white;
+    text-decoration: none;
+}
+
+.footer
+{
+    width: 100%;
+    height: 450px;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('images/footer-background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer-container
+{
+    width: 80%;
+    height: 320px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+    .div1
+{
+    width: 25%;
+    height: 280px;
+}
+.div2
+{
+    width: 25%;
+    height: 280px;
+}
+.div3
+{
+    width: 25%;
+    height: 280px;
+}
+.div4
+{
+    width: 25%;
+    height: 280px;
+}
+.footer-para p
+{
+    color: gray;
+    font-size: 15px;
+}
+.footer-logo i 
+{
+    font-size: 16px;
+}
+.copyright
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1));
+}
+.copyright p
+{
+    font-size: 15px;
+}
+}
+
+@media(max-width:1020px)
+{
+    .header
+{
+    width: 100%;
+    height: 80px;
+}
+.container
+{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.container ul
+{ 
+    display: flex;
+}
+.container ul li
+{
+    list-style: none;
+    padding: 0px 10px;
+}
+.container ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.image
+{
+    width: 45%;
+    height: 400px;
+}
+
+.percent
+{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+.sub-percent
+{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.first-percent
+{
+    width: 23%;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative;
+   
+}
+.first-percent img
+{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+}
+.percentage
+{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 120px;
+}
+.sub-percenatge
+{
+    width: 120px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.number
+{
+    width: 50%;
+    height: 50px;
+    margin-left: 10px;
+    position: relative;
+    top: -15px;
+}
+.number p
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.sign
+{
+    width: 50%;
+    height: 50px;
+    position: relative;
+    top: -15px;
+}
+.sign p
+{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.second-percent
+{
+    width: 23%;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative;
+}
+.second-percent img
+{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+}
+.second-percent .percentage
+{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 120px;
+}
+.second-percent .sub-percenatge
+{
+    width: 120px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-percent .number
+{
+    width: 50%;
+    height: 50px;
+    margin-left: 10px;
+    position: relative;
+    top: -15px;
+}
+.second-percent .number p
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.second-percent .sign
+{
+    width: 50%;
+    height: 50px;
+    position: relative;
+    top: -15px;
+}
+.second-percent .sign p
+{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    position: relative;
+    right: 15px;
+}
+
+.third-percent
+{
+    width: 23%;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative; 
+}
+.third-percent img
+{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+}
+.third-percent .percentage
+{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 120px;
+}
+.third-percent .sub-percenatge
+{
+    width: 120px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third-percent .number
+{
+    width: 50%;
+    height: 50px;
+    margin-left: 10px;
+    position: relative;
+    top: -15px;
+}
+.third-percent .number p
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.third-percent .sign
+{
+    width: 50%;
+    height: 50px;
+    position: relative;
+    top: -15px;
+}
+.third-percent .sign p
+{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.fourth-percent
+{
+    width: 23%;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative;
+   
+}
+.fourth-percent img
+{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+}
+.fourth-percent .percentage
+{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 120px;
+}
+.fourth-percent .sub-percenatge
+{
+    width: 120px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fourth-percent .number
+{
+    width: 50%;
+    height: 50px;
+    margin-left: 10px;
+    position: relative;
+    top: -15px;
+}
+.fourth-percent .number p
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.fourth-percent .sign
+{
+    width: 50%;
+    height: 50px;
+    position: relative;
+    top: -15px;
+}
+.fourth-percent .sign p
+{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+/* achieved */
+
+.achieved
+{
+    width: 100%;
+    height: 500px;
+}
+.sub-achieved
+{
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+    display: flex;
+    position: relative;
+    top: 50px;
+
+}
+.box1
+{
+    width: 50%;
+    height: 320px;
+}
+.box-h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 30%;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.box2
+{
+    width: 50%;
+    height: 320px;
+    
+}
+.box-h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 30%;
+    text-align: justify;
+    font-size: 25px;
+}
+
+
+/* help */
+
+.help
+{
+    width: 100%;
+    height: 250px;
+    background-color: orangered;
+}
+.sub-help
+{
+    width: 80%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0px 20px;
+}
+.help-h1 h1
+{
+    color: white;
+    font-size: 30px;
+}
+.help-button a
+{
+    color: white;
+    background-color: orangered;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 3px solid white;
+    text-decoration: none;
+}
+
+.footer
+{
+    width: 100%;
+    height: 450px;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('images/footer-background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer-container
+{
+    width: 80%;
+    height: 320px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+    .div1
+{
+    width: 25%;
+    height: 280px;
+}
+.div2
+{
+    width: 25%;
+    height: 280px;
+}
+.div3
+{
+    width: 25%;
+    height: 280px;
+}
+.div4
+{
+    width: 25%;
+    height: 280px;
+}
+.footer-para p
+{
+    color: gray;
+    font-size: 15px;
+}
+.footer-logo i 
+{
+    font-size: 16px;
+}
+.copyright
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1));
+}
+.copyright p
+{
+    font-size: 15px;
+}
+}
+
+
+@media(max-width:991px)
+{
+    .header
+{
+    width: 100%;
+    height: 80px;
+}
+.container
+{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.container ul
+{ 
+    display: flex;
+}
+.container ul li
+{
+    list-style: none;
+    padding: 0px 10px;
+}
+.container ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.image
+{
+    width: 45%;
+    height: 400px;
+}
+
+.percent
+{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+.sub-percent
+{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.first-percent
+{
+    width: 23%;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative;
+   
+}
+.first-percent img
+{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+}
+.percentage
+{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 120px;
+}
+.sub-percenatge
+{
+    width: 120px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.number
+{
+    width: 50%;
+    height: 50px;
+    margin-left: 10px;
+    position: relative;
+    top: -15px;
+}
+.number p
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.sign
+{
+    width: 50%;
+    height: 50px;
+    position: relative;
+    top: -15px;
+}
+.sign p
+{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.second-percent
+{
+    width: 23%;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative;
+}
+.second-percent img
+{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+}
+.second-percent .percentage
+{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 120px;
+}
+.second-percent .sub-percenatge
+{
+    width: 120px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-percent .number
+{
+    width: 50%;
+    height: 50px;
+    margin-left: 10px;
+    position: relative;
+    top: -15px;
+}
+.second-percent .number p
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.second-percent .sign
+{
+    width: 50%;
+    height: 50px;
+    position: relative;
+    top: -15px;
+}
+.second-percent .sign p
+{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    position: relative;
+    right: 15px;
+}
+
+.third-percent
+{
+    width: 23%;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative; 
+}
+.third-percent img
+{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+}
+.third-percent .percentage
+{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 120px;
+}
+.third-percent .sub-percenatge
+{
+    width: 120px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third-percent .number
+{
+    width: 50%;
+    height: 50px;
+    margin-left: 10px;
+    position: relative;
+    top: -15px;
+}
+.third-percent .number p
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.third-percent .sign
+{
+    width: 50%;
+    height: 50px;
+    position: relative;
+    top: -15px;
+}
+.third-percent .sign p
+{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.fourth-percent
+{
+    width: 23%;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative;
+   
+}
+.fourth-percent img
+{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+}
+.fourth-percent .percentage
+{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 120px;
+}
+.fourth-percent .sub-percenatge
+{
+    width: 120px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fourth-percent .number
+{
+    width: 50%;
+    height: 50px;
+    margin-left: 10px;
+    position: relative;
+    top: -15px;
+}
+.fourth-percent .number p
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.fourth-percent .sign
+{
+    width: 50%;
+    height: 50px;
+    position: relative;
+    top: -15px;
+}
+.fourth-percent .sign p
+{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+/* achieved */
+
+.achieved
+{
+    width: 100%;
+    height: 500px;
+}
+.sub-achieved
+{
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+    display: flex;
+    position: relative;
+    top: 50px;
+
+}
+.box1
+{
+    width: 50%;
+    height: 320px;
+}
+.box-h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 30%;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.box2
+{
+    width: 50%;
+    height: 320px;
+    
+}
+.box-h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 30%;
+    text-align: justify;
+    font-size: 25px;
+}
+
+
+/* help */
+
+.help
+{
+    width: 100%;
+    height: 250px;
+    background-color: orangered;
+}
+.sub-help
+{
+    width: 80%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0px 20px;
+}
+.help-h1 h1
+{
+    color: white;
+    font-size: 30px;
+}
+.help-button a
+{
+    color: white;
+    background-color: orangered;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 3px solid white;
+    text-decoration: none;
+}
+
+.footer
+{
+    width: 100%;
+    height: 450px;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('images/footer-background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer-container
+{
+    width: 80%;
+    height: 320px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+    .div1
+{
+    width: 25%;
+    height: 280px;
+}
+.div2
+{
+    width: 25%;
+    height: 280px;
+}
+.div3
+{
+    width: 25%;
+    height: 280px;
+}
+.div4
+{
+    width: 25%;
+    height: 280px;
+}
+.footer-para p
+{
+    color: gray;
+    font-size: 15px;
+}
+.footer-logo i 
+{
+    font-size: 16px;
+}
+.copyright
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1));
+}
+.copyright p
+{
+    font-size: 15px;
+}
+}
+
+
+@media(max-width:768px)
+{
+    .header
+{
+    width: 100%;
+    height: 80px;
+}
+.container
+{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.container ul
+{ 
+    display: flex;
+}
+.container ul li
+{
+    list-style: none;
+    padding: 0px 10px;
+}
+.container ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.image
+{
+    width: 45%;
+    height: 400px;
+}
+.sub-percent
+{
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.first-percent
+{
+    width: 23%;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative;
+   
+}
+.first-percent img
+{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.percent
+{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+.percentage
+{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 120px;
+}
+.sub-percenatge
+{
+    width: 120px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.number
+{
+    width: 50%;
+    height: 50px;
+    margin-left: 10px;
+    position: relative;
+    top: -15px;
+}
+.number p
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.sign
+{
+    width: 50%;
+    height: 50px;
+    position: relative;
+    top: -15px;
+}
+.sign p
+{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.second-percent
+{
+    width: 23%;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative;
+}
+.second-percent img
+{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+}
+.second-percent .percentage
+{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 120px;
+}
+.second-percent .sub-percenatge
+{
+    width: 120px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-percent .number
+{
+    width: 50%;
+    height: 50px;
+    margin-left: 10px;
+    position: relative;
+    top: -15px;
+}
+.second-percent .number p
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.second-percent .sign
+{
+    width: 50%;
+    height: 50px;
+    position: relative;
+    top: -15px;
+}
+.second-percent .sign p
+{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    position: relative;
+    right: 15px;
+}
+
+.third-percent
+{
+    width: 23%;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative; 
+}
+.third-percent img
+{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+}
+.third-percent .percentage
+{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 120px;
+}
+.third-percent .sub-percenatge
+{
+    width: 120px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third-percent .number
+{
+    width: 50%;
+    height: 50px;
+    margin-left: 10px;
+    position: relative;
+    top: -15px;
+}
+.third-percent .number p
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.third-percent .sign
+{
+    width: 50%;
+    height: 50px;
+    position: relative;
+    top: -15px;
+}
+.third-percent .sign p
+{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.fourth-percent
+{
+    width: 23%;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative;
+   
+}
+.fourth-percent img
+{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+}
+.fourth-percent .percentage
+{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 120px;
+}
+.fourth-percent .sub-percenatge
+{
+    width: 120px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fourth-percent .number
+{
+    width: 50%;
+    height: 50px;
+    margin-left: 10px;
+    position: relative;
+    top: -15px;
+}
+.fourth-percent .number p
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.fourth-percent .sign
+{
+    width: 50%;
+    height: 50px;
+    position: relative;
+    top: -15px;
+}
+.fourth-percent .sign p
+{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+/* achieved */
+
+.achieved
+{
+    width: 100%;
+    height: 500px;
+}
+.sub-achieved
+{
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+    display: flex;
+    position: relative;
+    top: 50px;
+
+}
+.box1
+{
+    width: 50%;
+    height: 320px;
+}
+.box-h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 30%;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.box2
+{
+    width: 50%;
+    height: 320px;
+    
+}
+.box-h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 30%;
+    text-align: justify;
+    font-size: 25px;
+}
+
+
+/* help */
+
+.help
+{
+    width: 100%;
+    height: 250px;
+    background-color: orangered;
+}
+.sub-help
+{
+    width: 80%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0px 20px;
+}
+.help-h1 h1
+{
+    color: white;
+    font-size: 30px;
+}
+.help-button a
+{
+    color: white;
+    background-color: orangered;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 3px solid white;
+    text-decoration: none;
+}
+
+.footer
+{
+    width: 100%;
+    height: 700px;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('images/footer-background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer-container
+{
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+    .div1
+{
+    width: 50%;
+    height: 280px;
+}
+.div2
+{
+    width: 50%;
+    height: 280px;
+}
+.div3
+{
+    width: 50%;
+    height: 280px;
+}
+.div3 h3
+{
+    position: relative;
+    top: 20px;
+}
+.div4
+{
+    width: 50%;
+    height: 280px;
+    padding-left: 20px;
+}
+.div4 h3
+{
+    position: relative;
+    top: 20px;
+}
+.footer-para p
+{
+    color: gray;
+    font-size: 15px;
+    text-align: justify;
+}
+.footer-logo
+{
+    margin-top: 0px;
+    position: relative;
+    top: -20px;
+}
+.footer-logo i 
+{
+    font-size: 18px;
+}
+.copyright
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1));
+}
+.copyright p
+{
+    font-size: 15px;
+}
+}
+
+
+@media(max-width:576px)
+{
+    .header
+    {
+        width: 100%;
+        height: 300px;
+    }
+    .container
+    {
+        width: 80%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .container .logo
+    {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .container ul
+    { 
+        display: flex;
+        flex-direction: column;
+    }
+    .container ul li
+    {
+        list-style: none;
+        padding: 10px 0px;
+    }
+    .home::after
+    {
+        content: '';
+        border-bottom: 3px solid orangered;
+        width:10%;
+        display: block;
+        margin-top: 10px;
+        position: absolute;
+    }
+    .data-image
+    {
+        width: 100%;
+        height: 800px;
+    }
+    .sub-data
+    {
+        width: 100%;
+        height: 700px;
+        margin-left: 0px;
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sub-data .data
+    {
+        width: 80%;
+        height: 350px;
+        margin: auto;
+    }
+    .data h1
+    {
+        font-size: 32px;
+    }
+    .sub-main h1::after
+    {
+        content: '';
+        width: 25%;
+        display: block;
+        border-bottom: 3px solid orangered;
+        position: relative;
+        top: 15px;
+    }
+    .image
+    {
+        width: 80%;
+        height: 300px;
+        position: relative;
+        top: 70px;
+        margin: auto;
+    }
+
+   /*percent*/
+
+.percent
+{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+.sub-percent
+{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.first-percent
+{
+    width: 100px;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative;  
+    top: 15px;
+}
+.first-percent img
+{
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.percentage
+{
+    width: 100%;
+    height: 15px;
+    position: relative;
+    top: 50px;
+}
+.sub-percenatge
+{
+    width: 100px;
+    height: 15px;
+    margin: auto;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+.number
+{
+    width: 50%;
+    height: 30px;
+    margin-left: 13px;
+}
+.number p
+{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+.sign
+{
+    width: 50%;
+    height: 30px;
+}
+.sign p
+{
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.second-percent
+{
+    width: 100px;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative; 
+    top: -20px; 
+}
+.second-percent .sub-percenatge
+{
+    width: 100px;
+    height: 15px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-percent img
+{
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.second-percent .number
+{
+    width: 50%;
+    height: 30px;
+}
+.second-percent .number p
+{
+    color: white;
+    font-size: 20px;
+    margin-left: 25px;
+}
+.second-percent .sign
+{
+    width: 50%;
+    height: 30px;
+}
+.second-percent .sign p
+{
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+    position: relative;
+    right: 20px;
+}
+
+.third-percent
+{
+    width: 100px;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative;
+    top: -20px;  
+}
+.third-percent .sub-percenatge
+{
+    width: 100px;
+    height: 15px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third-percent img
+{
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.third-percent .number
+{
+    width: 50%;
+    height: 30px;
+}
+.third-percent .number p
+{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.third-percent .sign
+{
+    width: 50%;
+    height: 30px;
+}
+.third-percent .sign p
+{
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+    position: relative;
+    right: 0px;
+}
+
+.fourth-percent
+{
+    width: 100px;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative; 
+    top: -20px; 
+}
+.fourth-percent .sub-percenatge
+{
+    width: 100px;
+    height: 15px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fourth-percent img
+{
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.fourth-percent .number
+{
+    width: 50%;
+    height: 30px;
+}
+.fourth-percent .number p
+{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.fourth-percent .sign
+{
+    width: 50%;
+    height: 30px;
+}
+.fourth-percent .sign p
+{
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+    position: relative;
+    right: 0px;
+}
+
+/* achieved */
+
+.achieved
+{
+    width: 100%;
+    height: 700px;
+}
+.sub-achieved
+{
+    width: 100%;
+    height: 600px;
+    margin-left: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 50px;
+
+}
+.box1
+{
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+}
+.box-h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 0%;
+    text-align: justify;
+}
+.box2
+{
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+}
+.box-h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 0%;
+    text-align: justify;
+}
+
+.help
+{
+    width: 100%;
+    height: 250px;
+    background-color: orangered;
+}
+.sub-help
+{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0px 20px;
+}
+.help-h1 h1
+{
+    width: 100%;
+    color: white;
+    font-size: 45px;
+}
+.help-button a
+{
+    width: 100%;
+    color: white;
+    background-color: orangered;
+    padding: 10px 20px;
+    font-size: 25px;
+    margin-left: 140px;
+    border-radius: 20px;
+    border: 3px solid white;
+    text-decoration: none;
+    position: relative;
+    left: 30px;
+}
+
+
+.footer
+{
+    width: 100%;
+    height: 800px;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('images/footer-background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer-container
+{
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div1
+{
+    width: 50%;
+    height: 290px;
+}
+.div2
+{
+    width: 50%;
+    height: 290px;
+}
+.div3
+{
+    width: 50%;
+    height: 290px;
+}
+.div4
+{
+    width: 50%;
+    height: 290px;
+}
+.footer-para p
+{
+    color: gray;
+    font-size: 14px;
+    text-align: justify;
+}
+.footer-logo
+{
+    margin-top: 10px;
+}
+
+.copyright p
+{
+    font-size: 14px;
+}
+
+}
+
+
+@media(max-width:480px)
+{
+    .header
+    {
+        width: 100%;
+        height: 300px;
+    }
+    .container
+    {
+        width: 80%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .container .logo
+    {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .container ul
+    { 
+        display: flex;
+        flex-direction: column;
+    }
+    .container ul li
+    {
+        list-style: none;
+        padding: 10px 0px;
+    }
+    .home::after
+    {
+        content: '';
+        border-bottom: 3px solid orangered;
+        width:10%;
+        display: block;
+        margin-top: 10px;
+        position: absolute;
+    }
+    .data-image
+    {
+        width: 100%;
+        height: 800px;
+    }
+    .sub-data
+    {
+        width: 100%;
+        height: 700px;
+        margin-left: 0px;
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sub-data .data
+    {
+        width: 80%;
+        height: 350px;
+        margin: auto;
+    }
+    .data h1
+    {
+        font-size: 32px;
+    }
+    .sub-main h1::after
+    {
+        content: '';
+        width: 25%;
+        display: block;
+        border-bottom: 3px solid orangered;
+        position: relative;
+        top: 15px;
+    }
+    .image
+    {
+        width: 80%;
+        height: 300px;
+        position: relative;
+        top: 70px;
+        margin: auto;
+    }
+  /*percent*/
+
+  .percent
+  {
+      width: 100%;
+      height: 570px;
+      background-color: black;
+  }
+  .sub-percent
+  {
+      width: 80%;
+      height: 570px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+  }
+  .first-percent
+  {
+      width: 40%;
+      height: 200px;
+      margin-top: 60px;
+      border-radius: 50%;
+      position: relative;  
+      top: 15px;
+  }
+  .first-percent img
+  {
+      width: 100%;
+      height: 120px;
+      border-radius: 50%;
+      position: relative;
+  }
+  .percentage
+  {
+      width: 100%;
+      height: 15px;
+      position: relative;
+      top: 50px;
+  }
+  .first-percent .sub-percenatge
+  {
+      width: 100px;
+      height: 15px;
+      margin: auto;
+      display: flex;
+      background-color: black;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      top: 30px;
+  }
+  .sub-percenatge
+  {
+      width: 100px;
+      height: 15px;
+      margin: auto;
+      display: flex;
+      background-color: black;
+      align-items: center;
+      justify-content: center;
+  }
+  .number
+  {
+      width: 50%;
+      height: 30px;
+      margin-left: 13px;
+  }
+  .number p
+  {
+      color: white;
+      font-size: 20px;
+      margin-left: 20px;
+      margin-top: 3px;
+  }
+  .sign
+  {
+      width: 40%;
+      height: 30px;
+  }
+  .sign p
+  {
+      color: white;
+      font-size: 18px;
+      margin-top: 5px;
+  }
+  .second-percent
+  {
+      width: 40%;
+      height: 200px;
+      margin-top: 60px;
+      border-radius: 50%;
+      position: relative; 
+      top: -20px; 
+  }
+  .second-percent .sub-percenatge
+  {
+      width: 100px;
+      height: 15px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .second-percent img
+  {
+      width: 100%;
+      height: 120px;
+      border-radius: 50%;
+      position: relative;
+  }
+  .second-percent .number
+  {
+      width: 50%;
+      height: 30px;
+  }
+  .second-percent .number p
+  {
+      color: white;
+      font-size: 20px;
+      margin-left: 25px;
+  }
+  .second-percent .sign
+  {
+      width: 50%;
+      height: 30px;
+  }
+  .second-percent .sign p
+  {
+      color: white;
+      font-size: 18px;
+      margin-top: 5px;
+      position: relative;
+      right: 20px;
+  }
+  
+  .third-percent
+  {
+      width: 40%;
+      height: 200px;
+      margin-top: 60px;
+      border-radius: 50%;
+      position: relative;
+      top: -50px;  
+  }
+  .third-percent .sub-percenatge
+  {
+      width: 100px;
+      height: 15px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .third-percent img
+  {
+      width: 100%;
+      height: 120px;
+      border-radius: 50%;
+      position: relative;
+  }
+  .third-percent .number
+  {
+      width: 50%;
+      height: 30px;
+  }
+  .third-percent .number p
+  {
+      color: white;
+      font-size: 20px;
+      margin-left: 20px;
+  }
+  .third-percent .sign
+  {
+      width: 50%;
+      height: 30px;
+  }
+  .third-percent .sign p
+  {
+      color: white;
+      font-size: 18px;
+      margin-top: 5px;
+      position: relative;
+      right: 0px;
+  }
+  
+  .fourth-percent
+  {
+      width: 40%;
+      height: 300px;
+      margin-top: 60px;
+      border-radius: 50%;
+      position: relative; 
+      top: -50px; 
+  }
+  .fourth-percent .sub-percenatge
+  {
+      width: 100px;
+      height: 15px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .fourth-percent img
+  {
+      width: 100%;
+      height: 120px;
+      border-radius: 50%;
+      position: relative;
+  }
+  .fourth-percent .number
+  {
+      width: 50%;
+      height: 30px;
+  }
+  .fourth-percent .number p
+  {
+      color: white;
+      font-size: 20px;
+      margin-left: 20px;
+  }
+  .fourth-percent .sign
+  {
+      width: 50%;
+      height: 30px;
+  }
+  .fourth-percent .sign p
+  {
+      color: white;
+      font-size: 18px;
+      margin-top: 5px;
+      position: relative;
+      right: 0px;
+  }
+  
+  /* achieved */
+  
+  .achieved
+  {
+      width: 100%;
+      height: 700px;
+  }
+  .sub-achieved
+  {
+      width: 100%;
+      height: 600px;
+      margin-left: 0%;
+      display: flex;
+      flex-wrap: wrap;
+      position: relative;
+      top: 50px;
+  
+  }
+  .box1
+  {
+      width: 100%;
+      height: 300px;
+      padding: 10px;
+  }
+  .box-h1
+  {
+      font-family: Arial, Helvetica, sans-serif;
+      padding-right: 0%;
+      text-align: justify;
+  }
+  .box2
+  {
+      width: 100%;
+      height: 300px;
+      padding: 10px;
+  }
+.box-h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 0%;
+    text-align: justify;
+}
+
+.help
+{
+    width: 100%;
+    height: 250px;
+    background-color: orangered;
+}
+.sub-help
+{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0px 20px;
+}
+.help-h1 h1
+{
+    width: 100%;
+    color: white;
+    font-size: 40px;
+}
+.help-button a
+{
+    width: 100%;
+    color: white;
+    background-color: orangered;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-left: 140px;
+    border-radius: 20px;
+    border: 3px solid white;
+    text-decoration: none;
+    position: relative;
+    left: 0%;
+}
+
+.footer
+{
+    width: 100%;
+    height: 1500px;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('images/footer-background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer-container
+{
+    width: 80%;
+    height: 1300px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div1
+{
+    width: 100%;
+    height: 300px;
+}
+.footer-logo
+{
+    position: relative;
+    top: -30px;
+}
+.div2
+{
+    width: 100%;
+    height: 300px;
+}
+.div2 ul
+{
+    position: relative;
+    top: -50px;
+}
+.div3
+{
+    width: 100%;
+    height: 300px;
+    padding-left: 30px;
+}
+.div4
+{
+    width: 100%;
+    height: 300px;
+}
+.leader
+{
+    position: relative;
+    top: -40px;
+}
+.email-send
+{
+    position: relative;
+    top: -20px;
+}
+.footer-logo
+{
+    margin-top: 0px;
+    position: relative;
+    top: 20px;
+}
+.copyright
+{
+    height: 100px;
+}
+.copyright p
+{
+    font-size: 14px;
+}
+}
+
+
+@media(max-width:425px)
+{
+    .header
+    {
+        width: 100%;
+        height: 300px;
+    }
+    .container
+    {
+        width: 80%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .container .logo
+    {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .container ul
+    { 
+        display: flex;
+        flex-direction: column;
+    }
+    .container ul li
+    {
+        list-style: none;
+        padding: 10px 0px;
+    }
+    .home::after
+    {
+        content: '';
+        border-bottom: 3px solid orangered;
+        width:10%;
+        display: block;
+        margin-top: 10px;
+        position: absolute;
+    }
+    .data-image
+    {
+        width: 100%;
+        height: 900px;
+    }
+    .sub-data
+    {
+        width: 100%;
+        height: 700px;
+        margin-left: 0px;
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sub-data .data
+    {
+        width: 80%;
+        height: 350px;
+        margin: auto;
+    }
+    .data h1
+    {
+        font-size: 32px;
+    }
+    .sub-main h1::after
+    {
+        content: '';
+        width: 25%;
+        display: block;
+        border-bottom: 3px solid orangered;
+        position: relative;
+        top: 15px;
+    }
+    .image
+    {
+        width: 80%;
+        height: 300px;
+        position: relative;
+        top: 200px;
+        margin: auto;
+    }
+
+     /*percent*/
+
+.percent
+{
+    width: 100%;
+    height: 570px;
+    background-color: black;
+}
+.sub-percent
+{
+    width: 70%;
+    height: 570px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.first-percent
+{
+    width: 100px;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative;  
+    top: 15px;
+}
+.first-percent img
+{
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.percentage
+{
+    width: 100%;
+    height: 15px;
+    position: relative;
+    top: 50px;
+}
+.sub-percenatge
+{
+    width: 100px;
+    height: 15px;
+    margin: auto;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+.number
+{
+    width: 50%;
+    height: 30px;
+    margin-left: 13px;
+}
+.number p
+{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+.sign
+{
+    width: 50%;
+    height: 30px;
+}
+.sign p
+{
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.second-percent
+{
+    width: 100px;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative; 
+    top: -20px; 
+}
+.second-percent .sub-percenatge
+{
+    width: 100px;
+    height: 15px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-percent img
+{
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.second-percent .number
+{
+    width: 50%;
+    height: 30px;
+}
+.second-percent .number p
+{
+    color: white;
+    font-size: 20px;
+    margin-left: 25px;
+}
+.second-percent .sign
+{
+    width: 50%;
+    height: 30px;
+}
+.second-percent .sign p
+{
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+    position: relative;
+    right: 20px;
+}
+
+.third-percent
+{
+    width: 100px;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative;
+    top: -50px;  
+}
+.third-percent .sub-percenatge
+{
+    width: 100px;
+    height: 15px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third-percent img
+{
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.third-percent .number
+{
+    width: 50%;
+    height: 30px;
+}
+.third-percent .number p
+{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.third-percent .sign
+{
+    width: 50%;
+    height: 30px;
+}
+.third-percent .sign p
+{
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+    position: relative;
+    right: 0px;
+}
+
+.fourth-percent
+{
+    width: 100px;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative; 
+    top: -50px; 
+}
+.fourth-percent .sub-percenatge
+{
+    width: 100px;
+    height: 15px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fourth-percent img
+{
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.fourth-percent .number
+{
+    width: 50%;
+    height: 30px;
+}
+.fourth-percent .number p
+{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.fourth-percent .sign
+{
+    width: 50%;
+    height: 30px;
+}
+.fourth-percent .sign p
+{
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+    position: relative;
+    right: 0px;
+}
+
+/* achieved */
+
+.achieved
+{
+    width: 100%;
+    height: 760px;
+}
+.sub-achieved
+{
+    width: 100%;
+    height: 660px;
+    margin-left: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 50px;
+
+}
+.box1
+{
+    width: 100%;
+    height: 330px;
+    padding: 10px;
+}
+.box-h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 0%;
+    text-align: justify;
+}
+.box2
+{
+    width: 100%;
+    height: 330px;
+    padding: 10px;
+}
+.box-h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 0%;
+    text-align: justify;
+}
+
+.help
+{
+    width: 100%;
+    height: 250px;
+    background-color: orangered;
+}
+.sub-help
+{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0px 20px;
+}
+.help-h1 h1
+{
+    width: 100%;
+    color: white;
+    font-size: 40px;
+}
+.help-button a
+{
+    width: 100%;
+    color: white;
+    background-color: orangered;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-left: 120px;
+    border-radius: 20px;
+    border: 3px solid white;
+    text-decoration: none;
+    position: relative;
+    left: 0px;
+}
+
+
+.footer
+{
+    width: 100%;
+    height: 1500px;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('images/footer-background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer-container
+{
+    width: 80%;
+    height: 1300px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div1
+{
+    width: 100%;
+    height: 300px;
+}
+.footer-logo
+{
+    position: relative;
+    top: -30px;
+}
+.div2
+{
+    width: 100%;
+    height: 300px;
+}
+.div2 ul
+{
+    position: relative;
+    top: -50px;
+}
+.div3
+{
+    width: 100%;
+    height: 300px;
+    padding-left: 30px;
+}
+.div4
+{
+    width: 100%;
+    height: 300px;
+}
+.leader
+{
+    position: relative;
+    top: -40px;
+}
+.email-send
+{
+    position: relative;
+    top: -20px;
+}
+.footer-logo
+{
+    margin-top: 0px;
+    position: relative;
+    top: 20px;
+}
+.copyright
+{
+    height: 100px;
+}
+.copyright p
+{
+    font-size: 12px;
+}
+}
+
+
+@media(max-width:380px)
+{
+    .header
+    {
+        width: 100%;
+        height: 300px;
+    }
+    .container
+    {
+        width: 80%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .container .logo
+    {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .container ul
+    { 
+        display: flex;
+        flex-direction: column;
+    }
+    .container ul li
+    {
+        list-style: none;
+        padding: 10px 0px;
+    }
+    .home::after
+    {
+        content: '';
+        border-bottom: 3px solid orangered;
+        width:10%;
+        display: block;
+        margin-top: 10px;
+        position: absolute;
+    }
+    .data-image
+    {
+        width: 100%;
+        height: 900px;
+    }
+    .sub-data
+    {
+        width: 100%;
+        height: 700px;
+        margin-left: 0px;
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sub-data .data
+    {
+        width: 80%;
+        height: 350px;
+        margin: auto;
+    }
+    .data h1
+    {
+        font-size: 32px;
+    }
+    .sub-main h1::after
+    {
+        content: '';
+        width: 25%;
+        display: block;
+        border-bottom: 3px solid orangered;
+        position: relative;
+        top: 15px;
+    }
+    .image
+    {
+        width: 80%;
+        height: 300px;
+        position: relative;
+        top: 200px;
+        margin: auto;
+    }
+
+     /*percent*/
+
+.percent
+{
+    width: 100%;
+    height: 570px;
+    background-color: black;
+}
+.sub-percent
+{
+    width: 70%;
+    height: 570px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.first-percent
+{
+    width: 100px;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative;  
+    top: 15px;
+}
+.first-percent img
+{
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.percentage
+{
+    width: 100%;
+    height: 15px;
+    position: relative;
+    top: 50px;
+}
+.sub-percenatge
+{
+    width: 100px;
+    height: 15px;
+    margin: auto;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+.number
+{
+    width: 50%;
+    height: 30px;
+    margin-left: 13px;
+}
+.number p
+{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+.sign
+{
+    width: 50%;
+    height: 30px;
+}
+.sign p
+{
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.second-percent
+{
+    width: 100px;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative; 
+    top: -20px; 
+}
+.second-percent .sub-percenatge
+{
+    width: 100px;
+    height: 15px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-percent img
+{
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.second-percent .number
+{
+    width: 50%;
+    height: 30px;
+}
+.second-percent .number p
+{
+    color: white;
+    font-size: 20px;
+    margin-left: 25px;
+}
+.second-percent .sign
+{
+    width: 50%;
+    height: 30px;
+}
+.second-percent .sign p
+{
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+    position: relative;
+    right: 20px;
+}
+
+.third-percent
+{
+    width: 100px;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative;
+    top: -50px;  
+}
+.third-percent .sub-percenatge
+{
+    width: 100px;
+    height: 15px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third-percent img
+{
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.third-percent .number
+{
+    width: 50%;
+    height: 30px;
+}
+.third-percent .number p
+{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.third-percent .sign
+{
+    width: 50%;
+    height: 30px;
+}
+.third-percent .sign p
+{
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+    position: relative;
+    right: 0px;
+}
+
+.fourth-percent
+{
+    width: 100px;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative; 
+    top: -50px; 
+}
+.fourth-percent .sub-percenatge
+{
+    width: 100px;
+    height: 15px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fourth-percent img
+{
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.fourth-percent .number
+{
+    width: 50%;
+    height: 30px;
+}
+.fourth-percent .number p
+{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.fourth-percent .sign
+{
+    width: 50%;
+    height: 30px;
+}
+.fourth-percent .sign p
+{
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+    position: relative;
+    right: 0px;
+}
+
+/* achieved */
+
+.achieved
+{
+    width: 100%;
+    height: 760px;
+}
+.sub-achieved
+{
+    width: 100%;
+    height: 660px;
+    margin-left: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 50px;
+
+}
+.box1
+{
+    width: 100%;
+    height: 330px;
+    padding: 10px;
+}
+.box-h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 0%;
+    text-align: justify;
+}
+.box2
+{
+    width: 100%;
+    height: 330px;
+    padding: 10px;
+}
+.box-h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 0%;
+    text-align: justify;
+}
+
+.help
+{
+    width: 100%;
+    height: 250px;
+    background-color: orangered;
+}
+.sub-help
+{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0px 20px;
+}
+.help-h1 h1
+{
+    width: 100%;
+    color: white;
+    font-size: 30px;
+}
+.help-button a
+{
+    width: 100%;
+    color: white;
+    background-color: orangered;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-left: 70px;
+    border-radius: 20px;
+    border: 3px solid white;
+    text-decoration: none;
+    position: relative;
+    left: 25px;
+}
+
+
+.footer
+{
+    width: 100%;
+    height: 1500px;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('images/footer-background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer-container
+{
+    width: 80%;
+    height: 1300px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div1
+{
+    width: 100%;
+    height: 300px;
+}
+.footer-logo
+{
+    position: relative;
+    top: -30px;
+}
+.div2
+{
+    width: 100%;
+    height: 300px;
+}
+.div2 ul
+{
+    position: relative;
+    top: -50px;
+}
+.div3
+{
+    width: 100%;
+    height: 300px;
+    padding-left: 30px;
+}
+.div4
+{
+    width: 100%;
+    height: 300px;
+}
+.leader
+{
+    position: relative;
+    top: -40px;
+}
+.email-send
+{
+    position: relative;
+    top: -20px;
+}
+.footer-logo
+{
+    margin-top: 0px;
+    position: relative;
+    top: 20px;
+}
+.copyright
+{
+    height: 100px;
+}
+.copyright p
+{
+    font-size: 11px;
+}
+}
+
+
+@media(min-width:321px) and (max-width:350px)
+{
+    .header
+    {
+        width: 100%;
+        height: 300px;
+    }
+    .container
+    {
+        width: 80%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .container .logo
+    {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .container ul
+    { 
+        display: flex;
+        flex-direction: column;
+    }
+    .container ul li
+    {
+        list-style: none;
+        padding: 10px 0px;
+    }
+    .home::after
+    {
+        content: '';
+        border-bottom: 3px solid orangered;
+        width:10%;
+        display: block;
+        margin-top: 10px;
+        position: absolute;
+    }
+    .data-image
+    {
+        width: 100%;
+        height: 900px;
+    }
+    .sub-data
+    {
+        width: 100%;
+        height: 700px;
+        margin-left: 0px;
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sub-data .data
+    {
+        width: 80%;
+        height: 350px;
+        margin: auto;
+    }
+    .data h1
+    {
+        font-size: 32px;
+    }
+    .sub-main h1::after
+    {
+        content: '';
+        width: 25%;
+        display: block;
+        border-bottom: 3px solid orangered;
+        position: relative;
+        top: 15px;
+    }
+    .image
+    {
+        width: 80%;
+        height: 300px;
+        position: relative;
+        top: 200px;
+        margin: auto;
+    }
+
+     /*percent*/
+
+.percent
+{
+    width: 100%;
+    height: 570px;
+    background-color: black;
+}
+.sub-percent
+{
+    width: 80%;
+    height: 570px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.first-percent
+{
+    width: 100px;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative;  
+    top: 15px;
+}
+.first-percent img
+{
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.percentage
+{
+    width: 100%;
+    height: 15px;
+    position: relative;
+    top: 50px;
+}
+.sub-percenatge
+{
+    width: 100px;
+    height: 15px;
+    margin: auto;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+.number
+{
+    width: 50%;
+    height: 30px;
+    margin-left: 13px;
+}
+.number p
+{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+.sign
+{
+    width: 50%;
+    height: 30px;
+}
+.sign p
+{
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.second-percent
+{
+    width: 100px;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative; 
+    top: -20px; 
+}
+.second-percent .sub-percenatge
+{
+    width: 100px;
+    height: 15px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-percent img
+{
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.second-percent .number
+{
+    width: 50%;
+    height: 30px;
+}
+.second-percent .number p
+{
+    color: white;
+    font-size: 20px;
+    margin-left: 25px;
+}
+.second-percent .sign
+{
+    width: 50%;
+    height: 30px;
+}
+.second-percent .sign p
+{
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+    position: relative;
+    right: 20px;
+}
+
+.third-percent
+{
+    width: 100px;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative;
+    top: -50px;  
+}
+.third-percent .sub-percenatge
+{
+    width: 100px;
+    height: 15px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third-percent img
+{
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.third-percent .number
+{
+    width: 50%;
+    height: 30px;
+}
+.third-percent .number p
+{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.third-percent .sign
+{
+    width: 50%;
+    height: 30px;
+}
+.third-percent .sign p
+{
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+    position: relative;
+    right: 0px;
+}
+
+.fourth-percent
+{
+    width: 100px;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative; 
+    top: -50px; 
+}
+.fourth-percent .sub-percenatge
+{
+    width: 100px;
+    height: 15px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fourth-percent img
+{
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.fourth-percent .number
+{
+    width: 50%;
+    height: 30px;
+}
+.fourth-percent .number p
+{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.fourth-percent .sign
+{
+    width: 50%;
+    height: 30px;
+}
+.fourth-percent .sign p
+{
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+    position: relative;
+    right: 0px;
+}
+
+/* achieved */
+
+.achieved
+{
+    width: 100%;
+    height: 850px;
+}
+.sub-achieved
+{
+    width: 100%;
+    height: 750px;
+    margin-left: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 50px;
+
+}
+.box1
+{
+    width: 100%;
+    height: 370px;
+    padding: 10px;
+}
+.box-h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 0%;
+    text-align: justify;
+}
+.box2
+{
+    width: 100%;
+    height: 370px;
+    padding: 10px;
+}
+.box-h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 0%;
+    text-align: justify;
+}
+
+.help
+{
+    width: 100%;
+    height: 250px;
+    background-color: orangered;
+}
+.sub-help
+{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0px 20px;
+}
+.help-h1 h1
+{
+    width: 100%;
+    color: white;
+    font-size: 30px;
+}
+.help-button a
+{
+    width: 100%;
+    color: white;
+    background-color: orangered;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-left: 70px;
+    border-radius: 20px;
+    border: 3px solid white;
+    text-decoration: none;
+}
+
+.footer
+{
+    width: 100%;
+    height: 1500px;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('images/footer-background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer-container
+{
+    width: 80%;
+    height: 1300px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div1
+{
+    width: 100%;
+    height: 300px;
+}
+.footer-logo
+{
+    position: relative;
+    top: -30px;
+}
+.div2
+{
+    width: 100%;
+    height: 300px;
+}
+.div2 ul
+{
+    position: relative;
+    top: -50px;
+}
+.div3
+{
+    width: 100%;
+    height: 300px;
+    padding-left: 30px;
+}
+.div4
+{
+    width: 100%;
+    height: 300px;
+}
+.leader
+{
+    position: relative;
+    top: -40px;
+}
+.email-send
+{
+    position: relative;
+    top: -20px;
+}
+.footer-logo
+{
+    margin-top: 0px;
+    position: relative;
+    top: 20px;
+}
+.copyright
+{
+    height: 100px;
+}
+.copyright p
+{
+    font-size: 9px;
+}
+}
+
+
+@media(max-width:320px)
+{
+    .header
+    {
+        width: 100%;
+        height: 300px;
+    }
+    .container
+    {
+        width: 80%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .container .logo
+    {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .container ul
+    { 
+        display: flex;
+        flex-direction: column;
+    }
+    .container ul li
+    {
+        list-style: none;
+        padding: 10px 0px;
+    }
+    .home::after
+    {
+        content: '';
+        border-bottom: 3px solid orangered;
+        width:10%;
+        display: block;
+        margin-top: 10px;
+        position: absolute;
+    }
+    .data-image
+    {
+        width: 100%;
+        height: 900px;
+    }
+    .sub-data
+    {
+        width: 100%;
+        height: 700px;
+        margin-left: 0px;
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sub-data .data
+    {
+        width: 80%;
+        height: 350px;
+        margin: auto;
+    }
+    .data h1
+    {
+        font-size: 32px;
+    }
+    .sub-main h1::after
+    {
+        content: '';
+        width: 25%;
+        display: block;
+        border-bottom: 3px solid orangered;
+        position: relative;
+        top: 15px;
+    }
+    .image
+    {
+        width: 80%;
+        height: 300px;
+        position: relative;
+        top: 200px;
+        margin: auto;
+    }
+
+    /*percent*/
+
+.percent
+{
+    width: 100%;
+    height: 570px;
+    background-color: black;
+}
+.sub-percent
+{
+    width: 80%;
+    height: 570px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.first-percent
+{
+    width: 100px;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative;  
+    top: 15px;
+}
+.first-percent img
+{
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.percentage
+{
+    width: 100%;
+    height: 15px;
+    position: relative;
+    top: 50px;
+}
+.sub-percenatge
+{
+    width: 100px;
+    height: 15px;
+    margin: auto;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+.number
+{
+    width: 50%;
+    height: 30px;
+    margin-left: 13px;
+}
+.number p
+{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+.sign
+{
+    width: 50%;
+    height: 30px;
+}
+.sign p
+{
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.second-percent
+{
+    width: 100px;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative; 
+    top: -20px; 
+}
+.second-percent .sub-percenatge
+{
+    width: 100px;
+    height: 15px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-percent img
+{
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.second-percent .number
+{
+    width: 50%;
+    height: 30px;
+}
+.second-percent .number p
+{
+    color: white;
+    font-size: 20px;
+    margin-left: 25px;
+}
+.second-percent .sign
+{
+    width: 50%;
+    height: 30px;
+}
+.second-percent .sign p
+{
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+    position: relative;
+    right: 20px;
+}
+
+.third-percent
+{
+    width: 100px;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative;
+    top: -50px;  
+}
+.third-percent .sub-percenatge
+{
+    width: 100px;
+    height: 15px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third-percent img
+{
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.third-percent .number
+{
+    width: 50%;
+    height: 30px;
+}
+.third-percent .number p
+{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.third-percent .sign
+{
+    width: 50%;
+    height: 30px;
+}
+.third-percent .sign p
+{
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+    position: relative;
+    right: 0px;
+}
+
+.fourth-percent
+{
+    width: 100px;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+    position: relative; 
+    top: -50px; 
+}
+.fourth-percent .sub-percenatge
+{
+    width: 100px;
+    height: 15px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fourth-percent img
+{
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.fourth-percent .number
+{
+    width: 50%;
+    height: 30px;
+}
+.fourth-percent .number p
+{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.fourth-percent .sign
+{
+    width: 50%;
+    height: 30px;
+}
+.fourth-percent .sign p
+{
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+    position: relative;
+    right: 0px;
+}
+
+/* achieved */
+
+.achieved
+{
+    width: 100%;
+    height: 850px;
+}
+.sub-achieved
+{
+    width: 100%;
+    height: 750px;
+    margin-left: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 50px;
+
+}
+.box1
+{
+    width: 100%;
+    height: 370px;
+    padding: 10px;
+}
+.box-h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 0%;
+    text-align: justify;
+}
+.box2
+{
+    width: 100%;
+    height: 370px;
+    padding: 10px;
+}
+.box-h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 0%;
+    text-align: justify;
+}
+
+.help
+{
+    width: 100%;
+    height: 250px;
+    background-color: orangered;
+}
+.sub-help
+{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0px 20px;
+}
+.help-h1 h1
+{
+    width: 100%;
+    color: white;
+    font-size: 30px;
+}
+.help-button a
+{
+    width: 100%;
+    color: white;
+    background-color: orangered;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-left: 70px;
+    border-radius: 20px;
+    border: 3px solid white;
+    text-decoration: none;
+}
+.footer
+{
+    width: 100%;
+    height: 1500px;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('images/footer-background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer-container
+{
+    width: 80%;
+    height: 1300px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div1
+{
+    width: 100%;
+    height: 300px;
+}
+.footer-logo
+{
+    position: relative;
+    top: -30px;
+}
+.div2
+{
+    width: 100%;
+    height: 300px;
+}
+.div2 ul
+{
+    position: relative;
+    top: -50px;
+}
+.div3
+{
+    width: 100%;
+    height: 300px;
+    padding-left: 30px;
+}
+.div4
+{
+    width: 100%;
+    height: 300px;
+}
+.leader
+{
+    position: relative;
+    top: -40px;
+}
+.email-send
+{
+    position: relative;
+    top: -20px;
+}
+.footer-logo
+{
+    margin-top: 0px;
+    position: relative;
+    top: 20px;
+}
+.copyright
+{
+    height: 100px;
+}
+.copyright p
+{
+    font-size: 9px;
+}
+}
